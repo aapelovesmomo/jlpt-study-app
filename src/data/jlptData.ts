@@ -418,6 +418,366 @@ export const n5Data: JLPTLevel = {
         }
       ],
       usage: 'Use つもり to express intentions or plans.'
+    },
+    {
+      id: 'particle-yo',
+      title: 'よ (Yo) Particle',
+      explanation: 'Emphasizes information or adds emphasis to statements. Used to assert or emphasize what you\'re saying.',
+      examples: [
+        {
+          japanese: 'これは美味しいですよ。',
+          english: 'This is delicious, you know.',
+          romaji: 'Kore wa oishii desu yo.'
+        },
+        {
+          japanese: '明日は雨ですよ。',
+          english: 'Tomorrow will be rainy, you know.',
+          romaji: 'Ashita wa ame desu yo.'
+        }
+      ],
+      usage: 'Add よ at the end of sentences to emphasize or assert information.'
+    },
+    {
+      id: 'particle-ne',
+      title: 'ね (Ne) Particle',
+      explanation: 'Seeks agreement or confirmation. Used to make statements more friendly or to seek agreement.',
+      examples: [
+        {
+          japanese: '今日は暑いですね。',
+          english: 'It\'s hot today, isn\'t it?',
+          romaji: 'Kyou wa atsui desu ne.'
+        },
+        {
+          japanese: '美味しいですね。',
+          english: 'It\'s delicious, isn\'t it?',
+          romaji: 'Oishii desu ne.'
+        }
+      ],
+      usage: 'Add ね at the end of sentences to seek agreement or confirmation.'
+    },
+    {
+      id: 'particle-ka',
+      title: 'か (Ka) Particle',
+      explanation: 'Makes questions. Used at the end of sentences to form questions.',
+      examples: [
+        {
+          japanese: 'これは何ですか？',
+          english: 'What is this?',
+          romaji: 'Kore wa nan desu ka?'
+        },
+        {
+          japanese: 'どこですか？',
+          english: 'Where is it?',
+          romaji: 'Doko desu ka?'
+        }
+      ],
+      usage: 'Add か at the end of sentences to make them questions.'
+    },
+    {
+      id: 'particle-kara-made',
+      title: 'から～まで (Kara ~ Made)',
+      explanation: 'Indicates a range from one point to another, meaning "from ~ to".',
+      examples: [
+        {
+          japanese: '九時から五時まで働きます。',
+          english: 'I work from 9 o\'clock to 5 o\'clock.',
+          romaji: 'Kuji kara goji made hatarakimasu.'
+        },
+        {
+          japanese: '月曜日から金曜日まで学校に行きます。',
+          english: 'I go to school from Monday to Friday.',
+          romaji: 'Getsuyoubi kara kinyoubi made gakkou ni ikimasu.'
+        }
+      ],
+      usage: 'Use から～まで to indicate a range from one point to another.'
+    },
+    {
+      id: 'particle-dake',
+      title: 'だけ (Dake)',
+      explanation: 'Means "only" or "just". Indicates limitation or restriction.',
+      examples: [
+        {
+          japanese: '水だけ飲みます。',
+          english: 'I only drink water.',
+          romaji: 'Mizu dake nomimasu.'
+        },
+        {
+          japanese: '一人だけです。',
+          english: 'There\'s only one person.',
+          romaji: 'Hitori dake desu.'
+        }
+      ],
+      usage: 'Use だけ after nouns to indicate "only" or "just".'
+    },
+    {
+      id: 'particle-shika',
+      title: 'しか (Shika)',
+      explanation: 'Means "only" but with negative implication. Must be used with negative verbs.',
+      examples: [
+        {
+          japanese: '水しか飲みません。',
+          english: 'I only drink water (and nothing else).',
+          romaji: 'Mizu shika nomimasen.'
+        },
+        {
+          japanese: '一人しかいません。',
+          english: 'There\'s only one person (and no more).',
+          romaji: 'Hitori shika imasen.'
+        }
+      ],
+      usage: 'Use しか with negative verbs to emphasize limitation.'
+    },
+    {
+      id: 'particle-gurai',
+      title: 'ぐらい (Gurai)',
+      explanation: 'Means "about" or "approximately". Used to indicate approximate amounts or degrees.',
+      examples: [
+        {
+          japanese: '一時間ぐらいかかります。',
+          english: 'It takes about one hour.',
+          romaji: 'Ichijikan gurai kakarimasu.'
+        },
+        {
+          japanese: '十人ぐらいいます。',
+          english: 'There are about ten people.',
+          romaji: 'Juunin gurai imasu.'
+        }
+      ],
+      usage: 'Use ぐらい after numbers or quantities to indicate approximation.'
+    },
+    {
+      id: 'particle-sae',
+      title: 'さえ (Sae)',
+      explanation: 'Means "even" or "as long as". Used to emphasize extreme cases.',
+      examples: [
+        {
+          japanese: '子供さえ分かります。',
+          english: 'Even children understand.',
+          romaji: 'Kodomo sae wakarimasu.'
+        },
+        {
+          japanese: '時間さえあれば行きます。',
+          english: 'I\'ll go as long as I have time.',
+          romaji: 'Jikan sae areba ikimasu.'
+        }
+      ],
+      usage: 'Use さえ to emphasize extreme cases or conditions.'
+    },
+    {
+      id: 'particle-mo',
+      title: 'も (Mo) Particle',
+      explanation: 'Means "also" or "too". Used to indicate inclusion or addition.',
+      examples: [
+        {
+          japanese: '私も学生です。',
+          english: 'I am also a student.',
+          romaji: 'Watashi mo gakusei desu.'
+        },
+        {
+          japanese: '今日も忙しいです。',
+          english: 'I\'m busy today too.',
+          romaji: 'Kyou mo isogashii desu.'
+        }
+      ],
+      usage: 'Use も to indicate "also" or "too".'
+    },
+    {
+      id: 'particle-kara',
+      title: 'から (Kara) Particle',
+      explanation: 'Means "from" or "because". Used to indicate starting point or reason.',
+      examples: [
+        {
+          japanese: '学校から帰りました。',
+          english: 'I came back from school.',
+          romaji: 'Gakkou kara kaerimashita.'
+        },
+        {
+          japanese: '疲れたから休みます。',
+          english: 'I\'ll rest because I\'m tired.',
+          romaji: 'Tsukareta kara yasumimasu.'
+        }
+      ],
+      usage: 'Use から to indicate starting point or reason.'
+    },
+    {
+      id: 'particle-made',
+      title: 'まで (Made) Particle',
+      explanation: 'Means "until" or "up to". Used to indicate endpoint or limit.',
+      examples: [
+        {
+          japanese: '五時まで待ちます。',
+          english: 'I\'ll wait until 5 o\'clock.',
+          romaji: 'Goji made machimasu.'
+        },
+        {
+          japanese: '駅まで歩きます。',
+          english: 'I\'ll walk to the station.',
+          romaji: 'Eki made arukimasu.'
+        }
+      ],
+      usage: 'Use まで to indicate endpoint or limit.'
+    },
+    {
+      id: 'particle-ni',
+      title: 'に (Ni) Particle',
+      explanation: 'Indicates direction, time, or purpose. Very versatile particle.',
+      examples: [
+        {
+          japanese: '学校に行きます。',
+          english: 'I go to school.',
+          romaji: 'Gakkou ni ikimasu.'
+        },
+        {
+          japanese: '三時に会いましょう。',
+          english: 'Let\'s meet at 3 o\'clock.',
+          romaji: 'Sanji ni aimashou.'
+        }
+      ],
+      usage: 'Use に for direction, time, or purpose.'
+    },
+    {
+      id: 'particle-de',
+      title: 'で (De) Particle',
+      explanation: 'Indicates location of action or means/method.',
+      examples: [
+        {
+          japanese: '図書館で勉強します。',
+          english: 'I study at the library.',
+          romaji: 'Toshokan de benkyou shimasu.'
+        },
+        {
+          japanese: '電車で行きます。',
+          english: 'I go by train.',
+          romaji: 'Densha de ikimasu.'
+        }
+      ],
+      usage: 'Use で for location of action or means/method.'
+    },
+    {
+      id: 'particle-wo',
+      title: 'を (Wo) Particle',
+      explanation: 'Indicates direct object of a verb.',
+      examples: [
+        {
+          japanese: '本を読みます。',
+          english: 'I read a book.',
+          romaji: 'Hon wo yomimasu.'
+        },
+        {
+          japanese: '水を飲みます。',
+          english: 'I drink water.',
+          romaji: 'Mizu wo nomimasu.'
+        }
+      ],
+      usage: 'Use を to indicate direct object of a verb.'
+    },
+    {
+      id: 'particle-ga',
+      title: 'が (Ga) Particle',
+      explanation: 'Indicates subject or object of existence verbs.',
+      examples: [
+        {
+          japanese: '猫がいます。',
+          english: 'There is a cat.',
+          romaji: 'Neko ga imasu.'
+        },
+        {
+          japanese: '本があります。',
+          english: 'There is a book.',
+          romaji: 'Hon ga arimasu.'
+        }
+      ],
+      usage: 'Use が for subject or object of existence verbs.'
+    },
+    {
+      id: 'particle-wa',
+      title: 'は (Wa) Particle',
+      explanation: 'Indicates topic of the sentence.',
+      examples: [
+        {
+          japanese: '私は学生です。',
+          english: 'I am a student.',
+          romaji: 'Watashi wa gakusei desu.'
+        },
+        {
+          japanese: '今日は暑いです。',
+          english: 'Today is hot.',
+          romaji: 'Kyou wa atsui desu.'
+        }
+      ],
+      usage: 'Use は to indicate the topic of the sentence.'
+    },
+    {
+      id: 'particle-no',
+      title: 'の (No) Particle',
+      explanation: 'Indicates possession or connection between nouns.',
+      examples: [
+        {
+          japanese: '私の本です。',
+          english: 'It\'s my book.',
+          romaji: 'Watashi no hon desu.'
+        },
+        {
+          japanese: '学校の先生です。',
+          english: 'He\'s a school teacher.',
+          romaji: 'Gakkou no sensei desu.'
+        }
+      ],
+      usage: 'Use の to indicate possession or connection between nouns.'
+    },
+    {
+      id: 'particle-to',
+      title: 'と (To) Particle',
+      explanation: 'Means "and" or "with". Used to connect nouns or indicate accompaniment.',
+      examples: [
+        {
+          japanese: '友達と映画を見ます。',
+          english: 'I watch movies with friends.',
+          romaji: 'Tomodachi to eiga wo mimasu.'
+        },
+        {
+          japanese: 'りんごとバナナを買いました。',
+          english: 'I bought apples and bananas.',
+          romaji: 'Ringo to banana wo kaimashita.'
+        }
+      ],
+      usage: 'Use と to mean "and" or "with".'
+    },
+    {
+      id: 'particle-hodo',
+      title: 'ほど (Hodo)',
+      explanation: 'Means "about" or "as much as". Used to indicate degree or extent.',
+      examples: [
+        {
+          japanese: '一時間ほどかかります。',
+          english: 'It takes about one hour.',
+          romaji: 'Ichijikan hodo kakarimasu.'
+        },
+        {
+          japanese: 'それほど難しくありません。',
+          english: 'It\'s not that difficult.',
+          romaji: 'Sore hodo muzukashiku arimasen.'
+        }
+      ],
+      usage: 'Use ほど to indicate degree or extent, often with negative sentences.'
+    },
+    {
+      id: 'particle-yori',
+      title: 'より (Yori)',
+      explanation: 'Means "than" or "more than". Used for comparisons.',
+      examples: [
+        {
+          japanese: 'この本はあの本より面白いです。',
+          english: 'This book is more interesting than that book.',
+          romaji: 'Kono hon wa ano hon yori omoshiroi desu.'
+        },
+        {
+          japanese: '今日は昨日より暑いです。',
+          english: 'Today is hotter than yesterday.',
+          romaji: 'Kyou wa kinou yori atsui desu.'
+        }
+      ],
+      usage: 'Use より to make comparisons meaning "than" or "more than".'
     }
   ],
   exercises: [
@@ -555,11 +915,144 @@ export const n5Data: JLPTLevel = {
       explanation: 'Use ないでください to politely ask someone not to do something.'
     },
     {
-      id: 'ex20',
+      id: 'ex21',
       type: 'fill-blank',
-      question: '日本に行っ____ことがあります。',
-      answer: 'た',
-      explanation: 'Use たことがある to talk about past experiences.'
+      question: '水____飲みます。',
+      answer: 'を',
+      explanation: 'Use を to mark the direct object of a verb.'
+    },
+    {
+      id: 'ex22',
+      type: 'translation',
+      question: 'I want to eat sushi.',
+      answer: '寿司を食べたいです。',
+      explanation: 'Use たい to express desire.'
+    },
+    {
+      id: 'ex23',
+      type: 'fill-blank',
+      question: '明日勉強する____です。',
+      answer: 'つもり',
+      explanation: 'Use つもり to express intention or plan.'
+    },
+    {
+      id: 'ex24',
+      type: 'translation',
+      question: 'This is delicious, you know.',
+      answer: 'これは美味しいですよ。',
+      explanation: 'Use よ to emphasize information.'
+    },
+    {
+      id: 'ex25',
+      type: 'fill-blank',
+      question: '今日は暑い____。',
+      answer: 'ですね',
+      explanation: 'Use ね to seek agreement or confirmation.'
+    },
+    {
+      id: 'ex26',
+      type: 'translation',
+      question: 'What is this?',
+      answer: 'これは何ですか？',
+      explanation: 'Use か to make questions.'
+    },
+    {
+      id: 'ex27',
+      type: 'fill-blank',
+      question: '九時____五時まで働きます。',
+      answer: 'から',
+      explanation: 'Use から～まで to indicate a range from one point to another.'
+    },
+    {
+      id: 'ex28',
+      type: 'translation',
+      question: 'I only drink water.',
+      answer: '水だけ飲みます。',
+      explanation: 'Use だけ to mean "only" or "just".'
+    },
+    {
+      id: 'ex29',
+      type: 'fill-blank',
+      question: '水____飲みません。',
+      answer: 'しか',
+      explanation: 'Use しか with negative verbs to emphasize limitation.'
+    },
+    {
+      id: 'ex30',
+      type: 'translation',
+      question: 'It takes about one hour.',
+      answer: '一時間ぐらいかかります。',
+      explanation: 'Use ぐらい to indicate approximation.'
+    },
+    {
+      id: 'ex31',
+      type: 'fill-blank',
+      question: 'この本はあの本____面白いです。',
+      answer: 'より',
+      explanation: 'Use より to make comparisons meaning "than" or "more than".'
+    },
+    {
+      id: 'ex32',
+      type: 'translation',
+      question: 'Even children understand.',
+      answer: '子供さえ分かります。',
+      explanation: 'Use さえ to emphasize extreme cases.'
+    },
+    {
+      id: 'ex33',
+      type: 'fill-blank',
+      question: '私____学生です。',
+      answer: 'も',
+      explanation: 'Use も to mean "also" or "too".'
+    },
+    {
+      id: 'ex34',
+      type: 'translation',
+      question: 'I came back from school.',
+      answer: '学校から帰りました。',
+      explanation: 'Use から to indicate starting point.'
+    },
+    {
+      id: 'ex35',
+      type: 'fill-blank',
+      question: '五時____待ちます。',
+      answer: 'まで',
+      explanation: 'Use まで to indicate endpoint or limit.'
+    },
+    {
+      id: 'ex36',
+      type: 'translation',
+      question: 'Let\'s meet at 3 o\'clock.',
+      answer: '三時に会いましょう。',
+      explanation: 'Use に to indicate time.'
+    },
+    {
+      id: 'ex37',
+      type: 'fill-blank',
+      question: '電車____行きます。',
+      answer: 'で',
+      explanation: 'Use で to indicate means or method.'
+    },
+    {
+      id: 'ex38',
+      type: 'translation',
+      question: 'There is a cat.',
+      answer: '猫がいます。',
+      explanation: 'Use が to mark the subject with existence verbs.'
+    },
+    {
+      id: 'ex39',
+      type: 'fill-blank',
+      question: '私____学生です。',
+      answer: 'は',
+      explanation: 'Use は to indicate the topic of the sentence.'
+    },
+    {
+      id: 'ex40',
+      type: 'translation',
+      question: 'It\'s my book.',
+      answer: '私の本です。',
+      explanation: 'Use の to indicate possession.'
     }
   ],
   vocabulary: [
@@ -804,13 +1297,453 @@ export const n5Data: JLPTLevel = {
       }
     },
     {
-      id: 'v25',
-      japanese: '山',
-      reading: 'やま',
-      english: 'mountain',
+      id: 'v26',
+      japanese: '水',
+      reading: 'みず',
+      english: 'water',
       example: {
-        japanese: '山に登ります。',
-        english: 'I climb the mountain.'
+        japanese: '水を飲みます。',
+        english: 'I drink water.'
+      }
+    },
+    {
+      id: 'v27',
+      japanese: '食べ物',
+      reading: 'たべもの',
+      english: 'food',
+      example: {
+        japanese: '美味しい食べ物です。',
+        english: 'It\'s delicious food.'
+      }
+    },
+    {
+      id: 'v28',
+      japanese: '今',
+      reading: 'いま',
+      english: 'now',
+      example: {
+        japanese: '今何時ですか？',
+        english: 'What time is it now?'
+      }
+    },
+    {
+      id: 'v29',
+      japanese: '年',
+      reading: 'とし',
+      english: 'year',
+      example: {
+        japanese: '今年は2024年です。',
+        english: 'This year is 2024.'
+      }
+    },
+    {
+      id: 'v30',
+      japanese: '月',
+      reading: 'つき',
+      english: 'month',
+      example: {
+        japanese: '今月は忙しいです。',
+        english: 'This month is busy.'
+      }
+    },
+    {
+      id: 'v31',
+      japanese: '日',
+      reading: 'ひ',
+      english: 'day',
+      example: {
+        japanese: '毎日勉強します。',
+        english: 'I study every day.'
+      }
+    },
+    {
+      id: 'v32',
+      japanese: '時',
+      reading: 'じ',
+      english: 'hour',
+      example: {
+        japanese: '三時です。',
+        english: 'It\'s three o\'clock.'
+      }
+    },
+    {
+      id: 'v33',
+      japanese: '分',
+      reading: 'ふん',
+      english: 'minute',
+      example: {
+        japanese: '五分待ちます。',
+        english: 'I\'ll wait five minutes.'
+      }
+    },
+    {
+      id: 'v34',
+      japanese: '人',
+      reading: 'ひと',
+      english: 'person',
+      example: {
+        japanese: '良い人です。',
+        english: 'He\'s a good person.'
+      }
+    },
+    {
+      id: 'v35',
+      japanese: '男',
+      reading: 'おとこ',
+      english: 'man',
+      example: {
+        japanese: '男の人がいます。',
+        english: 'There is a man.'
+      }
+    },
+    {
+      id: 'v36',
+      japanese: '女',
+      reading: 'おんな',
+      english: 'woman',
+      example: {
+        japanese: '女の人がいます。',
+        english: 'There is a woman.'
+      }
+    },
+    {
+      id: 'v37',
+      japanese: '子供',
+      reading: 'こども',
+      english: 'child',
+      example: {
+        japanese: '子供が遊んでいます。',
+        english: 'The children are playing.'
+      }
+    },
+    {
+      id: 'v38',
+      japanese: '先生',
+      reading: 'せんせい',
+      english: 'teacher',
+      example: {
+        japanese: '先生に質問します。',
+        english: 'I\'ll ask the teacher a question.'
+      }
+    },
+    {
+      id: 'v39',
+      japanese: '医者',
+      reading: 'いしゃ',
+      english: 'doctor',
+      example: {
+        japanese: '医者に診てもらいます。',
+        english: 'I\'ll have the doctor examine me.'
+      }
+    },
+    {
+      id: 'v40',
+      japanese: '会社員',
+      reading: 'かいしゃいん',
+      english: 'office worker',
+      example: {
+        japanese: '父は会社員です。',
+        english: 'My father is an office worker.'
+      }
+    },
+    {
+      id: 'v41',
+      japanese: '店員',
+      reading: 'てんいん',
+      english: 'store clerk',
+      example: {
+        japanese: '店員に聞きます。',
+        english: 'I\'ll ask the store clerk.'
+      }
+    },
+    {
+      id: 'v42',
+      japanese: '家族',
+      reading: 'かぞく',
+      english: 'family',
+      example: {
+        japanese: '家族と一緒に住んでいます。',
+        english: 'I live together with my family.'
+      }
+    },
+    {
+      id: 'v43',
+      japanese: '父',
+      reading: 'ちち',
+      english: 'father',
+      example: {
+        japanese: '父は優しいです。',
+        english: 'My father is kind.'
+      }
+    },
+    {
+      id: 'v44',
+      japanese: '母',
+      reading: 'はは',
+      english: 'mother',
+      example: {
+        japanese: '母は料理が上手です。',
+        english: 'My mother is good at cooking.'
+      }
+    },
+    {
+      id: 'v45',
+      japanese: '兄',
+      reading: 'あに',
+      english: 'older brother',
+      example: {
+        japanese: '兄は大学生です。',
+        english: 'My older brother is a university student.'
+      }
+    },
+    {
+      id: 'v46',
+      japanese: '姉',
+      reading: 'あね',
+      english: 'older sister',
+      example: {
+        japanese: '姉は看護師です。',
+        english: 'My older sister is a nurse.'
+      }
+    },
+    {
+      id: 'v47',
+      japanese: '弟',
+      reading: 'おとうと',
+      english: 'younger brother',
+      example: {
+        japanese: '弟は中学生です。',
+        english: 'My younger brother is a junior high school student.'
+      }
+    },
+    {
+      id: 'v48',
+      japanese: '妹',
+      reading: 'いもうと',
+      english: 'younger sister',
+      example: {
+        japanese: '妹は小学生です。',
+        english: 'My younger sister is an elementary school student.'
+      }
+    },
+    {
+      id: 'v49',
+      japanese: '犬',
+      reading: 'いぬ',
+      english: 'dog',
+      example: {
+        japanese: '犬を飼っています。',
+        english: 'I have a dog.'
+      }
+    },
+    {
+      id: 'v50',
+      japanese: '鳥',
+      reading: 'とり',
+      english: 'bird',
+      example: {
+        japanese: '鳥が飛んでいます。',
+        english: 'The birds are flying.'
+      }
+    },
+    {
+      id: 'v51',
+      japanese: '魚',
+      reading: 'さかな',
+      english: 'fish',
+      example: {
+        japanese: '魚を食べます。',
+        english: 'I eat fish.'
+      }
+    },
+    {
+      id: 'v52',
+      japanese: '花',
+      reading: 'はな',
+      english: 'flower',
+      example: {
+        japanese: '美しい花です。',
+        english: 'It\'s a beautiful flower.'
+      }
+    },
+    {
+      id: 'v53',
+      japanese: '木',
+      reading: 'き',
+      english: 'tree',
+      example: {
+        japanese: '大きな木があります。',
+        english: 'There is a big tree.'
+      }
+    },
+    {
+      id: 'v54',
+      japanese: '川',
+      reading: 'かわ',
+      english: 'river',
+      example: {
+        japanese: '川で泳ぎます。',
+        english: 'I swim in the river.'
+      }
+    },
+    {
+      id: 'v55',
+      japanese: '空',
+      reading: 'そら',
+      english: 'sky',
+      example: {
+        japanese: '空が青いです。',
+        english: 'The sky is blue.'
+      }
+    },
+    {
+      id: 'v56',
+      japanese: '太陽',
+      reading: 'たいよう',
+      english: 'sun',
+      example: {
+        japanese: '太陽が明るいです。',
+        english: 'The sun is bright.'
+      }
+    },
+    {
+      id: 'v57',
+      japanese: '月',
+      reading: 'つき',
+      english: 'moon',
+      example: {
+        japanese: '月が美しいです。',
+        english: 'The moon is beautiful.'
+      }
+    },
+    {
+      id: 'v58',
+      japanese: '星',
+      reading: 'ほし',
+      english: 'star',
+      example: {
+        japanese: '星がたくさんあります。',
+        english: 'There are many stars.'
+      }
+    },
+    {
+      id: 'v59',
+      japanese: '雨',
+      reading: 'あめ',
+      english: 'rain',
+      example: {
+        japanese: '雨が降っています。',
+        english: 'It\'s raining.'
+      }
+    },
+    {
+      id: 'v60',
+      japanese: '雪',
+      reading: 'ゆき',
+      english: 'snow',
+      example: {
+        japanese: '雪が白いです。',
+        english: 'The snow is white.'
+      }
+    },
+    {
+      id: 'v61',
+      japanese: '風',
+      reading: 'かぜ',
+      english: 'wind',
+      example: {
+        japanese: '風が強いです。',
+        english: 'The wind is strong.'
+      }
+    },
+    {
+      id: 'v62',
+      japanese: '火',
+      reading: 'ひ',
+      english: 'fire',
+      example: {
+        japanese: '火が危険です。',
+        english: 'Fire is dangerous.'
+      }
+    },
+    {
+      id: 'v63',
+      japanese: '電気',
+      reading: 'でんき',
+      english: 'electricity',
+      example: {
+        japanese: '電気が消えました。',
+        english: 'The electricity went out.'
+      }
+    },
+    {
+      id: 'v64',
+      japanese: '家',
+      reading: 'いえ',
+      english: 'house',
+      example: {
+        japanese: '家に帰ります。',
+        english: 'I go home.'
+      }
+    },
+    {
+      id: 'v65',
+      japanese: '部屋',
+      reading: 'へや',
+      english: 'room',
+      example: {
+        japanese: '部屋が広いです。',
+        english: 'The room is spacious.'
+      }
+    },
+    {
+      id: 'v66',
+      japanese: '机',
+      reading: 'つくえ',
+      english: 'desk',
+      example: {
+        japanese: '机の上に本があります。',
+        english: 'There is a book on the desk.'
+      }
+    },
+    {
+      id: 'v67',
+      japanese: '椅子',
+      reading: 'いす',
+      english: 'chair',
+      example: {
+        japanese: '椅子に座ります。',
+        english: 'I sit on the chair.'
+      }
+    },
+    {
+      id: 'v68',
+      japanese: '窓',
+      reading: 'まど',
+      english: 'window',
+      example: {
+        japanese: '窓から外を見ます。',
+        english: 'I look outside through the window.'
+      }
+    },
+    {
+      id: 'v69',
+      japanese: 'ドア',
+      reading: 'どあ',
+      english: 'door',
+      example: {
+        japanese: 'ドアを開けます。',
+        english: 'I open the door.'
+      }
+    },
+    {
+      id: 'v70',
+      japanese: '電話',
+      reading: 'でんわ',
+      english: 'telephone',
+      example: {
+        japanese: '電話をかけます。',
+        english: 'I make a phone call.'
       }
     }
   ]
