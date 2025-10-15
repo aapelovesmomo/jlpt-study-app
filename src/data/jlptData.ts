@@ -1736,14 +1736,1010 @@ export const n5Data: JLPTLevel = {
         english: 'I open the door.'
       }
     },
+    // Numbers
     {
-      id: 'v70',
-      japanese: '電話',
-      reading: 'でんわ',
-      english: 'telephone',
+      id: 'v71',
+      japanese: '一',
+      reading: 'いち',
+      english: 'one',
       example: {
-        japanese: '電話をかけます。',
-        english: 'I make a phone call.'
+        japanese: '一つのりんごです。',
+        english: 'It\'s one apple.'
+      }
+    },
+    {
+      id: 'v72',
+      japanese: '二',
+      reading: 'に',
+      english: 'two',
+      example: {
+        japanese: '二つの本があります。',
+        english: 'There are two books.'
+      }
+    },
+    {
+      id: 'v73',
+      japanese: '三',
+      reading: 'さん',
+      english: 'three',
+      example: {
+        japanese: '三時に会いましょう。',
+        english: 'Let\'s meet at three o\'clock.'
+      }
+    },
+    {
+      id: 'v74',
+      japanese: '四',
+      reading: 'よん',
+      english: 'four',
+      example: {
+        japanese: '四つの椅子があります。',
+        english: 'There are four chairs.'
+      }
+    },
+    {
+      id: 'v75',
+      japanese: '五',
+      reading: 'ご',
+      english: 'five',
+      example: {
+        japanese: '五時です。',
+        english: 'It\'s five o\'clock.'
+      }
+    },
+    {
+      id: 'v76',
+      japanese: '六',
+      reading: 'ろく',
+      english: 'six',
+      example: {
+        japanese: '六人です。',
+        english: 'There are six people.'
+      }
+    },
+    {
+      id: 'v77',
+      japanese: '七',
+      reading: 'なな',
+      english: 'seven',
+      example: {
+        japanese: '七つの星です。',
+        english: 'There are seven stars.'
+      }
+    },
+    {
+      id: 'v78',
+      japanese: '八',
+      reading: 'はち',
+      english: 'eight',
+      example: {
+        japanese: '八時です。',
+        english: 'It\'s eight o\'clock.'
+      }
+    },
+    {
+      id: 'v79',
+      japanese: '九',
+      reading: 'きゅう',
+      english: 'nine',
+      example: {
+        japanese: '九つの花です。',
+        english: 'There are nine flowers.'
+      }
+    },
+    {
+      id: 'v80',
+      japanese: '十',
+      reading: 'じゅう',
+      english: 'ten',
+      example: {
+        japanese: '十人です。',
+        english: 'There are ten people.'
+      }
+    },
+    // Colors
+    {
+      id: 'v81',
+      japanese: '赤い',
+      reading: 'あかい',
+      english: 'red',
+      example: {
+        japanese: '赤い花です。',
+        english: 'It\'s a red flower.'
+      }
+    },
+    {
+      id: 'v82',
+      japanese: '青い',
+      reading: 'あおい',
+      english: 'blue',
+      example: {
+        japanese: '青い空です。',
+        english: 'It\'s a blue sky.'
+      }
+    },
+    {
+      id: 'v83',
+      japanese: '黒い',
+      reading: 'くろい',
+      english: 'black',
+      example: {
+        japanese: '黒い猫です。',
+        english: 'It\'s a black cat.'
+      }
+    },
+    {
+      id: 'v84',
+      japanese: '白い',
+      reading: 'しろい',
+      english: 'white',
+      example: {
+        japanese: '白い雪です。',
+        english: 'It\'s white snow.'
+      }
+    },
+    {
+      id: 'v85',
+      japanese: '黄色い',
+      reading: 'きいろい',
+      english: 'yellow',
+      example: {
+        japanese: '黄色いバナナです。',
+        english: 'It\'s a yellow banana.'
+      }
+    },
+    {
+      id: 'v86',
+      japanese: '緑',
+      reading: 'みどり',
+      english: 'green',
+      example: {
+        japanese: '緑の木です。',
+        english: 'It\'s a green tree.'
+      }
+    },
+    {
+      id: 'v87',
+      japanese: '茶色',
+      reading: 'ちゃいろ',
+      english: 'brown',
+      example: {
+        japanese: '茶色の犬です。',
+        english: 'It\'s a brown dog.'
+      }
+    },
+    // Days of the week
+    {
+      id: 'v88',
+      japanese: '月曜日',
+      reading: 'げつようび',
+      english: 'Monday',
+      example: {
+        japanese: '月曜日に学校に行きます。',
+        english: 'I go to school on Monday.'
+      }
+    },
+    {
+      id: 'v89',
+      japanese: '火曜日',
+      reading: 'かようび',
+      english: 'Tuesday',
+      example: {
+        japanese: '火曜日に映画を見ます。',
+        english: 'I watch a movie on Tuesday.'
+      }
+    },
+    {
+      id: 'v90',
+      japanese: '水曜日',
+      reading: 'すいようび',
+      english: 'Wednesday',
+      example: {
+        japanese: '水曜日に買い物をします。',
+        english: 'I go shopping on Wednesday.'
+      }
+    },
+    {
+      id: 'v91',
+      japanese: '木曜日',
+      reading: 'もくようび',
+      english: 'Thursday',
+      example: {
+        japanese: '木曜日に友達に会います。',
+        english: 'I meet my friend on Thursday.'
+      }
+    },
+    {
+      id: 'v92',
+      japanese: '金曜日',
+      reading: 'きんようび',
+      english: 'Friday',
+      example: {
+        japanese: '金曜日にパーティーがあります。',
+        english: 'There\'s a party on Friday.'
+      }
+    },
+    {
+      id: 'v93',
+      japanese: '土曜日',
+      reading: 'どようび',
+      english: 'Saturday',
+      example: {
+        japanese: '土曜日に休みます。',
+        english: 'I rest on Saturday.'
+      }
+    },
+    {
+      id: 'v94',
+      japanese: '日曜日',
+      reading: 'にちようび',
+      english: 'Sunday',
+      example: {
+        japanese: '日曜日に家族と過ごします。',
+        english: 'I spend time with my family on Sunday.'
+      }
+    },
+    // Time expressions
+    {
+      id: 'v95',
+      japanese: '朝',
+      reading: 'あさ',
+      english: 'morning',
+      example: {
+        japanese: '朝にコーヒーを飲みます。',
+        english: 'I drink coffee in the morning.'
+      }
+    },
+    {
+      id: 'v96',
+      japanese: '昼',
+      reading: 'ひる',
+      english: 'noon',
+      example: {
+        japanese: '昼に昼食を食べます。',
+        english: 'I eat lunch at noon.'
+      }
+    },
+    {
+      id: 'v97',
+      japanese: '夜',
+      reading: 'よる',
+      english: 'night',
+      example: {
+        japanese: '夜にテレビを見ます。',
+        english: 'I watch TV at night.'
+      }
+    },
+    {
+      id: 'v98',
+      japanese: '秒',
+      reading: 'びょう',
+      english: 'second',
+      example: {
+        japanese: '三十秒待ちます。',
+        english: 'I\'ll wait thirty seconds.'
+      }
+    },
+    // Common verbs
+    {
+      id: 'v99',
+      japanese: '行く',
+      reading: 'いく',
+      english: 'to go',
+      example: {
+        japanese: '学校に行きます。',
+        english: 'I go to school.'
+      }
+    },
+    {
+      id: 'v100',
+      japanese: '来る',
+      reading: 'くる',
+      english: 'to come',
+      example: {
+        japanese: '明日来ます。',
+        english: 'I\'ll come tomorrow.'
+      }
+    },
+    {
+      id: 'v101',
+      japanese: '食べる',
+      reading: 'たべる',
+      english: 'to eat',
+      example: {
+        japanese: 'ご飯を食べます。',
+        english: 'I eat rice.'
+      }
+    },
+    {
+      id: 'v102',
+      japanese: '飲む',
+      reading: 'のむ',
+      english: 'to drink',
+      example: {
+        japanese: '水を飲みます。',
+        english: 'I drink water.'
+      }
+    },
+    {
+      id: 'v103',
+      japanese: '見る',
+      reading: 'みる',
+      english: 'to see, to watch',
+      example: {
+        japanese: '映画を見ます。',
+        english: 'I watch a movie.'
+      }
+    },
+    {
+      id: 'v104',
+      japanese: '聞く',
+      reading: 'きく',
+      english: 'to listen, to hear',
+      example: {
+        japanese: '音楽を聞きます。',
+        english: 'I listen to music.'
+      }
+    },
+    {
+      id: 'v105',
+      japanese: '話す',
+      reading: 'はなす',
+      english: 'to speak',
+      example: {
+        japanese: '日本語を話します。',
+        english: 'I speak Japanese.'
+      }
+    },
+    {
+      id: 'v106',
+      japanese: '読む',
+      reading: 'よむ',
+      english: 'to read',
+      example: {
+        japanese: '本を読みます。',
+        english: 'I read a book.'
+      }
+    },
+    {
+      id: 'v107',
+      japanese: '書く',
+      reading: 'かく',
+      english: 'to write',
+      example: {
+        japanese: '手紙を書きます。',
+        english: 'I write a letter.'
+      }
+    },
+    {
+      id: 'v108',
+      japanese: '買う',
+      reading: 'かう',
+      english: 'to buy',
+      example: {
+        japanese: '本を買います。',
+        english: 'I buy a book.'
+      }
+    },
+    {
+      id: 'v109',
+      japanese: '売る',
+      reading: 'うる',
+      english: 'to sell',
+      example: {
+        japanese: '車を売ります。',
+        english: 'I sell a car.'
+      }
+    },
+    {
+      id: 'v110',
+      japanese: '作る',
+      reading: 'つくる',
+      english: 'to make',
+      example: {
+        japanese: '料理を作ります。',
+        english: 'I make food.'
+      }
+    },
+    {
+      id: 'v111',
+      japanese: '持つ',
+      reading: 'もつ',
+      english: 'to hold',
+      example: {
+        japanese: '荷物を持ちます。',
+        english: 'I hold luggage.'
+      }
+    },
+    {
+      id: 'v112',
+      japanese: '待つ',
+      reading: 'まつ',
+      english: 'to wait',
+      example: {
+        japanese: '電車を待ちます。',
+        english: 'I wait for the train.'
+      }
+    },
+    {
+      id: 'v113',
+      japanese: '歩く',
+      reading: 'あるく',
+      english: 'to walk',
+      example: {
+        japanese: '公園を歩きます。',
+        english: 'I walk in the park.'
+      }
+    },
+    {
+      id: 'v114',
+      japanese: '走る',
+      reading: 'はしる',
+      english: 'to run',
+      example: {
+        japanese: '毎日走ります。',
+        english: 'I run every day.'
+      }
+    },
+    {
+      id: 'v115',
+      japanese: '座る',
+      reading: 'すわる',
+      english: 'to sit',
+      example: {
+        japanese: '椅子に座ります。',
+        english: 'I sit on the chair.'
+      }
+    },
+    {
+      id: 'v116',
+      japanese: '立つ',
+      reading: 'たつ',
+      english: 'to stand',
+      example: {
+        japanese: '電車で立ちます。',
+        english: 'I stand on the train.'
+      }
+    },
+    {
+      id: 'v117',
+      japanese: '寝る',
+      reading: 'ねる',
+      english: 'to sleep',
+      example: {
+        japanese: '夜に寝ます。',
+        english: 'I sleep at night.'
+      }
+    },
+    {
+      id: 'v118',
+      japanese: '起きる',
+      reading: 'おきる',
+      english: 'to wake up',
+      example: {
+        japanese: '朝早く起きます。',
+        english: 'I wake up early in the morning.'
+      }
+    },
+    {
+      id: 'v119',
+      japanese: '働く',
+      reading: 'はたらく',
+      english: 'to work',
+      example: {
+        japanese: '会社で働きます。',
+        english: 'I work at a company.'
+      }
+    },
+    {
+      id: 'v120',
+      japanese: '勉強する',
+      reading: 'べんきょうする',
+      english: 'to study',
+      example: {
+        japanese: '毎日勉強します。',
+        english: 'I study every day.'
+      }
+    },
+    // Adjectives
+    {
+      id: 'v121',
+      japanese: '大きい',
+      reading: 'おおきい',
+      english: 'big',
+      example: {
+        japanese: '大きい家です。',
+        english: 'It\'s a big house.'
+      }
+    },
+    {
+      id: 'v122',
+      japanese: '小さい',
+      reading: 'ちいさい',
+      english: 'small',
+      example: {
+        japanese: '小さい猫です。',
+        english: 'It\'s a small cat.'
+      }
+    },
+    {
+      id: 'v123',
+      japanese: '新しい',
+      reading: 'あたらしい',
+      english: 'new',
+      example: {
+        japanese: '新しい車です。',
+        english: 'It\'s a new car.'
+      }
+    },
+    {
+      id: 'v124',
+      japanese: '古い',
+      reading: 'ふるい',
+      english: 'old',
+      example: {
+        japanese: '古い本です。',
+        english: 'It\'s an old book.'
+      }
+    },
+    {
+      id: 'v125',
+      japanese: '高い',
+      reading: 'たかい',
+      english: 'tall, expensive',
+      example: {
+        japanese: '高い建物です。',
+        english: 'It\'s a tall building.'
+      }
+    },
+    {
+      id: 'v126',
+      japanese: '安い',
+      reading: 'やすい',
+      english: 'cheap',
+      example: {
+        japanese: '安い服です。',
+        english: 'It\'s cheap clothing.'
+      }
+    },
+    {
+      id: 'v127',
+      japanese: '近い',
+      reading: 'ちかい',
+      english: 'near',
+      example: {
+        japanese: '駅が近いです。',
+        english: 'The station is near.'
+      }
+    },
+    {
+      id: 'v128',
+      japanese: '遠い',
+      reading: 'とおい',
+      english: 'far',
+      example: {
+        japanese: '学校が遠いです。',
+        english: 'The school is far.'
+      }
+    },
+    {
+      id: 'v129',
+      japanese: '早い',
+      reading: 'はやい',
+      english: 'early, fast',
+      example: {
+        japanese: '早く起きます。',
+        english: 'I wake up early.'
+      }
+    },
+    {
+      id: 'v130',
+      japanese: '遅い',
+      reading: 'おそい',
+      english: 'late, slow',
+      example: {
+        japanese: '遅く寝ます。',
+        english: 'I go to bed late.'
+      }
+    },
+    {
+      id: 'v131',
+      japanese: '良い',
+      reading: 'よい',
+      english: 'good',
+      example: {
+        japanese: '良い天気です。',
+        english: 'It\'s good weather.'
+      }
+    },
+    {
+      id: 'v132',
+      japanese: '悪い',
+      reading: 'わるい',
+      english: 'bad',
+      example: {
+        japanese: '悪い天気です。',
+        english: 'It\'s bad weather.'
+      }
+    },
+    {
+      id: 'v133',
+      japanese: '熱い',
+      reading: 'あつい',
+      english: 'hot',
+      example: {
+        japanese: 'お茶が熱いです。',
+        english: 'The tea is hot.'
+      }
+    },
+    {
+      id: 'v134',
+      japanese: '寒い',
+      reading: 'さむい',
+      english: 'cold',
+      example: {
+        japanese: '今日は寒いです。',
+        english: 'Today is cold.'
+      }
+    },
+    {
+      id: 'v135',
+      japanese: '暖かい',
+      reading: 'あたたかい',
+      english: 'warm',
+      example: {
+        japanese: '暖かい部屋です。',
+        english: 'It\'s a warm room.'
+      }
+    },
+    {
+      id: 'v136',
+      japanese: '涼しい',
+      reading: 'すずしい',
+      english: 'cool',
+      example: {
+        japanese: '涼しい風です。',
+        english: 'It\'s a cool breeze.'
+      }
+    },
+    {
+      id: 'v137',
+      japanese: '美味しい',
+      reading: 'おいしい',
+      english: 'delicious',
+      example: {
+        japanese: '美味しい料理です。',
+        english: 'It\'s delicious food.'
+      }
+    },
+    {
+      id: 'v138',
+      japanese: 'まずい',
+      reading: 'まずい',
+      english: 'tasteless, bad taste',
+      example: {
+        japanese: 'まずい料理です。',
+        english: 'It\'s tasteless food.'
+      }
+    },
+    {
+      id: 'v139',
+      japanese: '面白い',
+      reading: 'おもしろい',
+      english: 'interesting',
+      example: {
+        japanese: '面白い映画です。',
+        english: 'It\'s an interesting movie.'
+      }
+    },
+    {
+      id: 'v140',
+      japanese: 'つまらない',
+      reading: 'つまらない',
+      english: 'boring',
+      example: {
+        japanese: 'つまらない本です。',
+        english: 'It\'s a boring book.'
+      }
+    },
+    {
+      id: 'v141',
+      japanese: '忙しい',
+      reading: 'いそがしい',
+      english: 'busy',
+      example: {
+        japanese: '今日は忙しいです。',
+        english: 'Today is busy.'
+      }
+    },
+    {
+      id: 'v142',
+      japanese: '暇',
+      reading: 'ひま',
+      english: 'free time',
+      example: {
+        japanese: '今日は暇です。',
+        english: 'Today I have free time.'
+      }
+    },
+    {
+      id: 'v143',
+      japanese: '難しい',
+      reading: 'むずかしい',
+      english: 'difficult',
+      example: {
+        japanese: '難しい問題です。',
+        english: 'It\'s a difficult problem.'
+      }
+    },
+    {
+      id: 'v144',
+      japanese: '易しい',
+      reading: 'やさしい',
+      english: 'easy',
+      example: {
+        japanese: '易しい問題です。',
+        english: 'It\'s an easy problem.'
+      }
+    },
+    {
+      id: 'v145',
+      japanese: '重い',
+      reading: 'おもい',
+      english: 'heavy',
+      example: {
+        japanese: '重い荷物です。',
+        english: 'It\'s heavy luggage.'
+      }
+    },
+    {
+      id: 'v146',
+      japanese: '軽い',
+      reading: 'かるい',
+      english: 'light',
+      example: {
+        japanese: '軽い荷物です。',
+        english: 'It\'s light luggage.'
+      }
+    },
+    {
+      id: 'v147',
+      japanese: '長い',
+      reading: 'ながい',
+      english: 'long',
+      example: {
+        japanese: '長い道です。',
+        english: 'It\'s a long road.'
+      }
+    },
+    {
+      id: 'v148',
+      japanese: '短い',
+      reading: 'みじかい',
+      english: 'short',
+      example: {
+        japanese: '短い髪です。',
+        english: 'It\'s short hair.'
+      }
+    },
+    {
+      id: 'v149',
+      japanese: '広い',
+      reading: 'ひろい',
+      english: 'wide, spacious',
+      example: {
+        japanese: '広い部屋です。',
+        english: 'It\'s a spacious room.'
+      }
+    },
+    {
+      id: 'v150',
+      japanese: '狭い',
+      reading: 'せまい',
+      english: 'narrow',
+      example: {
+        japanese: '狭い道です。',
+        english: 'It\'s a narrow road.'
+      }
+    },
+    {
+      id: 'v151',
+      japanese: '厚い',
+      reading: 'あつい',
+      english: 'thick',
+      example: {
+        japanese: '厚い本です。',
+        english: 'It\'s a thick book.'
+      }
+    },
+    {
+      id: 'v152',
+      japanese: '薄い',
+      reading: 'うすい',
+      english: 'thin',
+      example: {
+        japanese: '薄い紙です。',
+        english: 'It\'s thin paper.'
+      }
+    },
+    {
+      id: 'v153',
+      japanese: '深い',
+      reading: 'ふかい',
+      english: 'deep',
+      example: {
+        japanese: '深い海です。',
+        english: 'It\'s a deep sea.'
+      }
+    },
+    {
+      id: 'v154',
+      japanese: '浅い',
+      reading: 'あさい',
+      english: 'shallow',
+      example: {
+        japanese: '浅い川です。',
+        english: 'It\'s a shallow river.'
+      }
+    },
+    {
+      id: 'v155',
+      japanese: '明るい',
+      reading: 'あかるい',
+      english: 'bright',
+      example: {
+        japanese: '明るい部屋です。',
+        english: 'It\'s a bright room.'
+      }
+    },
+    {
+      id: 'v156',
+      japanese: '暗い',
+      reading: 'くらい',
+      english: 'dark',
+      example: {
+        japanese: '暗い部屋です。',
+        english: 'It\'s a dark room.'
+      }
+    },
+    {
+      id: 'v157',
+      japanese: '静か',
+      reading: 'しずか',
+      english: 'quiet',
+      example: {
+        japanese: '静かな場所です。',
+        english: 'It\'s a quiet place.'
+      }
+    },
+    {
+      id: 'v158',
+      japanese: 'うるさい',
+      reading: 'うるさい',
+      english: 'noisy',
+      example: {
+        japanese: 'うるさい場所です。',
+        english: 'It\'s a noisy place.'
+      }
+    },
+    {
+      id: 'v159',
+      japanese: '綺麗',
+      reading: 'きれい',
+      english: 'beautiful, clean',
+      example: {
+        japanese: '綺麗な花です。',
+        english: 'It\'s a beautiful flower.'
+      }
+    },
+    {
+      id: 'v160',
+      japanese: '汚い',
+      reading: 'きたない',
+      english: 'dirty',
+      example: {
+        japanese: '汚い部屋です。',
+        english: 'It\'s a dirty room.'
+      }
+    },
+    {
+      id: 'v161',
+      japanese: '元気',
+      reading: 'げんき',
+      english: 'healthy, energetic',
+      example: {
+        japanese: '元気な子供です。',
+        english: 'It\'s a healthy child.'
+      }
+    },
+    {
+      id: 'v162',
+      japanese: '病気',
+      reading: 'びょうき',
+      english: 'sick',
+      example: {
+        japanese: '病気の人は休みます。',
+        english: 'Sick people rest.'
+      }
+    },
+    {
+      id: 'v163',
+      japanese: '有名',
+      reading: 'ゆうめい',
+      english: 'famous',
+      example: {
+        japanese: '有名な歌手です。',
+        english: 'It\'s a famous singer.'
+      }
+    },
+    {
+      id: 'v164',
+      japanese: '大切',
+      reading: 'たいせつ',
+      english: 'important',
+      example: {
+        japanese: '大切な物です。',
+        english: 'It\'s an important thing.'
+      }
+    },
+    {
+      id: 'v165',
+      japanese: '便利',
+      reading: 'べんり',
+      english: 'convenient',
+      example: {
+        japanese: '便利な道具です。',
+        english: 'It\'s a convenient tool.'
+      }
+    },
+    {
+      id: 'v166',
+      japanese: '不便',
+      reading: 'ふべん',
+      english: 'inconvenient',
+      example: {
+        japanese: '不便な場所です。',
+        english: 'It\'s an inconvenient place.'
+      }
+    },
+    {
+      id: 'v167',
+      japanese: '安全',
+      reading: 'あんぜん',
+      english: 'safe',
+      example: {
+        japanese: '安全な場所です。',
+        english: 'It\'s a safe place.'
+      }
+    },
+    {
+      id: 'v168',
+      japanese: '危険',
+      reading: 'きけん',
+      english: 'dangerous',
+      example: {
+        japanese: '危険な場所です。',
+        english: 'It\'s a dangerous place.'
+      }
+    },
+    {
+      id: 'v169',
+      japanese: '簡単',
+      reading: 'かんたん',
+      english: 'simple',
+      example: {
+        japanese: '簡単な問題です。',
+        english: 'It\'s a simple problem.'
+      }
+    },
+    {
+      id: 'v170',
+      japanese: '複雑',
+      reading: 'ふくざつ',
+      english: 'complex',
+      example: {
+        japanese: '複雑な問題です。',
+        english: 'It\'s a complex problem.'
       }
     }
   ]
