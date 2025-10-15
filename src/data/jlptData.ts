@@ -28,6 +28,7 @@ export interface Vocabulary {
     japanese: string
     english: string
   }
+  dictionaryLink?: string
 }
 
 export interface JLPTLevel {
@@ -2029,7 +2030,8 @@ export const n5Data: JLPTLevel = {
       example: {
         japanese: '学校に行きます。',
         english: 'I go to school.'
-      }
+      },
+      dictionaryLink: 'https://jisho.org/search/行く'
     },
     {
       id: 'v100',
@@ -2039,7 +2041,8 @@ export const n5Data: JLPTLevel = {
       example: {
         japanese: '明日来ます。',
         english: 'I\'ll come tomorrow.'
-      }
+      },
+      dictionaryLink: 'https://jisho.org/search/来る'
     },
     {
       id: 'v101',
@@ -2049,7 +2052,8 @@ export const n5Data: JLPTLevel = {
       example: {
         japanese: 'ご飯を食べます。',
         english: 'I eat rice.'
-      }
+      },
+      dictionaryLink: 'https://jisho.org/search/食べる'
     },
     {
       id: 'v102',
@@ -2059,7 +2063,8 @@ export const n5Data: JLPTLevel = {
       example: {
         japanese: '水を飲みます。',
         english: 'I drink water.'
-      }
+      },
+      dictionaryLink: 'https://jisho.org/search/飲む'
     },
     {
       id: 'v103',
@@ -2732,14 +2737,2319 @@ export const n5Data: JLPTLevel = {
         english: 'It\'s a simple problem.'
       }
     },
+    // Food and drinks
     {
-      id: 'v170',
-      japanese: '複雑',
-      reading: 'ふくざつ',
-      english: 'complex',
+      id: 'v171',
+      japanese: 'ご飯',
+      reading: 'ごはん',
+      english: 'rice, meal',
       example: {
-        japanese: '複雑な問題です。',
-        english: 'It\'s a complex problem.'
+        japanese: 'ご飯を食べます。',
+        english: 'I eat rice.'
+      }
+    },
+    {
+      id: 'v172',
+      japanese: 'パン',
+      reading: 'ぱん',
+      english: 'bread',
+      example: {
+        japanese: 'パンを買います。',
+        english: 'I buy bread.'
+      }
+    },
+    {
+      id: 'v173',
+      japanese: '肉',
+      reading: 'にく',
+      english: 'meat',
+      example: {
+        japanese: '肉を食べます。',
+        english: 'I eat meat.'
+      }
+    },
+    {
+      id: 'v174',
+      japanese: '魚',
+      reading: 'さかな',
+      english: 'fish',
+      example: {
+        japanese: '魚を食べます。',
+        english: 'I eat fish.'
+      }
+    },
+    {
+      id: 'v175',
+      japanese: '野菜',
+      reading: 'やさい',
+      english: 'vegetables',
+      example: {
+        japanese: '野菜を食べます。',
+        english: 'I eat vegetables.'
+      }
+    },
+    {
+      id: 'v176',
+      japanese: '果物',
+      reading: 'くだもの',
+      english: 'fruit',
+      example: {
+        japanese: '果物が好きです。',
+        english: 'I like fruit.'
+      }
+    },
+    {
+      id: 'v177',
+      japanese: 'りんご',
+      reading: 'りんご',
+      english: 'apple',
+      example: {
+        japanese: 'りんごを食べます。',
+        english: 'I eat an apple.'
+      }
+    },
+    {
+      id: 'v178',
+      japanese: 'バナナ',
+      reading: 'ばなな',
+      english: 'banana',
+      example: {
+        japanese: 'バナナが好きです。',
+        english: 'I like bananas.'
+      }
+    },
+    {
+      id: 'v179',
+      japanese: 'オレンジ',
+      reading: 'おれんじ',
+      english: 'orange',
+      example: {
+        japanese: 'オレンジを食べます。',
+        english: 'I eat an orange.'
+      }
+    },
+    {
+      id: 'v180',
+      japanese: 'コーヒー',
+      reading: 'こーひー',
+      english: 'coffee',
+      example: {
+        japanese: 'コーヒーを飲みます。',
+        english: 'I drink coffee.'
+      }
+    },
+    {
+      id: 'v181',
+      japanese: 'お茶',
+      reading: 'おちゃ',
+      english: 'tea',
+      example: {
+        japanese: 'お茶を飲みます。',
+        english: 'I drink tea.'
+      }
+    },
+    {
+      id: 'v182',
+      japanese: '牛乳',
+      reading: 'ぎゅうにゅう',
+      english: 'milk',
+      example: {
+        japanese: '牛乳を飲みます。',
+        english: 'I drink milk.'
+      }
+    },
+    {
+      id: 'v183',
+      japanese: 'ジュース',
+      reading: 'じゅーす',
+      english: 'juice',
+      example: {
+        japanese: 'ジュースを飲みます。',
+        english: 'I drink juice.'
+      }
+    },
+    {
+      id: 'v184',
+      japanese: 'ビール',
+      reading: 'びーる',
+      english: 'beer',
+      example: {
+        japanese: 'ビールを飲みます。',
+        english: 'I drink beer.'
+      }
+    },
+    {
+      id: 'v185',
+      japanese: 'お酒',
+      reading: 'おさけ',
+      english: 'alcohol, sake',
+      example: {
+        japanese: 'お酒を飲みます。',
+        english: 'I drink alcohol.'
+      }
+    },
+    // Clothing
+    {
+      id: 'v186',
+      japanese: '服',
+      reading: 'ふく',
+      english: 'clothes',
+      example: {
+        japanese: '新しい服を買います。',
+        english: 'I buy new clothes.'
+      }
+    },
+    {
+      id: 'v187',
+      japanese: 'シャツ',
+      reading: 'しゃつ',
+      english: 'shirt',
+      example: {
+        japanese: '白いシャツを着ます。',
+        english: 'I wear a white shirt.'
+      }
+    },
+    {
+      id: 'v188',
+      japanese: 'ズボン',
+      reading: 'ずぼん',
+      english: 'pants',
+      example: {
+        japanese: '青いズボンをはきます。',
+        english: 'I wear blue pants.'
+      }
+    },
+    {
+      id: 'v189',
+      japanese: 'スカート',
+      reading: 'すかーと',
+      english: 'skirt',
+      example: {
+        japanese: 'スカートをはきます。',
+        english: 'I wear a skirt.'
+      }
+    },
+    {
+      id: 'v190',
+      japanese: '靴',
+      reading: 'くつ',
+      english: 'shoes',
+      example: {
+        japanese: '新しい靴を買います。',
+        english: 'I buy new shoes.'
+      }
+    },
+    {
+      id: 'v191',
+      japanese: '帽子',
+      reading: 'ぼうし',
+      english: 'hat',
+      example: {
+        japanese: '帽子をかぶります。',
+        english: 'I wear a hat.'
+      }
+    },
+    {
+      id: 'v192',
+      japanese: '手袋',
+      reading: 'てぶくろ',
+      english: 'gloves',
+      example: {
+        japanese: '手袋をはめます。',
+        english: 'I wear gloves.'
+      }
+    },
+    {
+      id: 'v193',
+      japanese: '靴下',
+      reading: 'くつした',
+      english: 'socks',
+      example: {
+        japanese: '靴下をはきます。',
+        english: 'I wear socks.'
+      }
+    },
+    // Body parts
+    {
+      id: 'v194',
+      japanese: '頭',
+      reading: 'あたま',
+      english: 'head',
+      example: {
+        japanese: '頭が痛いです。',
+        english: 'My head hurts.'
+      }
+    },
+    {
+      id: 'v195',
+      japanese: '顔',
+      reading: 'かお',
+      english: 'face',
+      example: {
+        japanese: '顔を洗います。',
+        english: 'I wash my face.'
+      }
+    },
+    {
+      id: 'v196',
+      japanese: '目',
+      reading: 'め',
+      english: 'eye',
+      example: {
+        japanese: '目が大きいです。',
+        english: 'My eyes are big.'
+      }
+    },
+    {
+      id: 'v197',
+      japanese: '鼻',
+      reading: 'はな',
+      english: 'nose',
+      example: {
+        japanese: '鼻が高いです。',
+        english: 'I have a high nose.'
+      }
+    },
+    {
+      id: 'v198',
+      japanese: '口',
+      reading: 'くち',
+      english: 'mouth',
+      example: {
+        japanese: '口を開けます。',
+        english: 'I open my mouth.'
+      }
+    },
+    {
+      id: 'v199',
+      japanese: '耳',
+      reading: 'みみ',
+      english: 'ear',
+      example: {
+        japanese: '耳を聞きます。',
+        english: 'I listen with my ears.'
+      }
+    },
+    {
+      id: 'v200',
+      japanese: '歯',
+      reading: 'は',
+      english: 'tooth',
+      example: {
+        japanese: '歯を磨きます。',
+        english: 'I brush my teeth.'
+      },
+      dictionaryLink: 'https://jisho.org/search/歯'
+    },
+    {
+      id: 'v201',
+      japanese: '手',
+      reading: 'て',
+      english: 'hand',
+      example: {
+        japanese: '手を洗います。',
+        english: 'I wash my hands.'
+      }
+    },
+    {
+      id: 'v202',
+      japanese: '足',
+      reading: 'あし',
+      english: 'foot, leg',
+      example: {
+        japanese: '足が長いです。',
+        english: 'My legs are long.'
+      }
+    },
+    {
+      id: 'v203',
+      japanese: '背',
+      reading: 'せ',
+      english: 'back',
+      example: {
+        japanese: '背が高いです。',
+        english: 'I am tall.'
+      }
+    },
+    {
+      id: 'v204',
+      japanese: '心',
+      reading: 'こころ',
+      english: 'heart, mind',
+      example: {
+        japanese: '心が優しいです。',
+        english: 'I have a kind heart.'
+      }
+    },
+    // Common objects
+    {
+      id: 'v205',
+      japanese: 'お金',
+      reading: 'おかね',
+      english: 'money',
+      example: {
+        japanese: 'お金を持っています。',
+        english: 'I have money.'
+      }
+    },
+    {
+      id: 'v206',
+      japanese: '時計',
+      reading: 'とけい',
+      english: 'clock, watch',
+      example: {
+        japanese: '時計を見ます。',
+        english: 'I look at the clock.'
+      }
+    },
+    {
+      id: 'v207',
+      japanese: 'カメラ',
+      reading: 'かめら',
+      english: 'camera',
+      example: {
+        japanese: 'カメラで写真を撮ります。',
+        english: 'I take photos with a camera.'
+      }
+    },
+    {
+      id: 'v208',
+      japanese: '写真',
+      reading: 'しゃしん',
+      english: 'photo',
+      example: {
+        japanese: '写真を撮ります。',
+        english: 'I take a photo.'
+      }
+    },
+    {
+      id: 'v209',
+      japanese: 'テレビ',
+      reading: 'てれび',
+      english: 'TV',
+      example: {
+        japanese: 'テレビを見ます。',
+        english: 'I watch TV.'
+      }
+    },
+    {
+      id: 'v210',
+      japanese: 'ラジオ',
+      reading: 'らじお',
+      english: 'radio',
+      example: {
+        japanese: 'ラジオを聞きます。',
+        english: 'I listen to the radio.'
+      }
+    },
+    {
+      id: 'v211',
+      japanese: '音楽',
+      reading: 'おんがく',
+      english: 'music',
+      example: {
+        japanese: '音楽を聞きます。',
+        english: 'I listen to music.'
+      }
+    },
+    {
+      id: 'v212',
+      japanese: '新聞',
+      reading: 'しんぶん',
+      english: 'newspaper',
+      example: {
+        japanese: '新聞を読みます。',
+        english: 'I read the newspaper.'
+      }
+    },
+    {
+      id: 'v213',
+      japanese: '雑誌',
+      reading: 'ざっし',
+      english: 'magazine',
+      example: {
+        japanese: '雑誌を買います。',
+        english: 'I buy a magazine.'
+      }
+    },
+    {
+      id: 'v214',
+      japanese: '手紙',
+      reading: 'てがみ',
+      english: 'letter',
+      example: {
+        japanese: '手紙を書きます。',
+        english: 'I write a letter.'
+      }
+    },
+    {
+      id: 'v215',
+      japanese: '切手',
+      reading: 'きって',
+      english: 'stamp',
+      example: {
+        japanese: '切手を買います。',
+        english: 'I buy stamps.'
+      }
+    },
+    {
+      id: 'v216',
+      japanese: '封筒',
+      reading: 'ふうとう',
+      english: 'envelope',
+      example: {
+        japanese: '封筒に手紙を入れます。',
+        english: 'I put a letter in an envelope.'
+      }
+    },
+    {
+      id: 'v217',
+      japanese: '紙',
+      reading: 'かみ',
+      english: 'paper',
+      example: {
+        japanese: '紙に書きます。',
+        english: 'I write on paper.'
+      }
+    },
+    {
+      id: 'v218',
+      japanese: '鉛筆',
+      reading: 'えんぴつ',
+      english: 'pencil',
+      example: {
+        japanese: '鉛筆で書きます。',
+        english: 'I write with a pencil.'
+      }
+    },
+    {
+      id: 'v219',
+      japanese: 'ペン',
+      reading: 'ぺん',
+      english: 'pen',
+      example: {
+        japanese: 'ペンで書きます。',
+        english: 'I write with a pen.'
+      }
+    },
+    {
+      id: 'v220',
+      japanese: '消しゴム',
+      reading: 'けしごむ',
+      english: 'eraser',
+      example: {
+        japanese: '消しゴムで消します。',
+        english: 'I erase with an eraser.'
+      }
+    },
+    {
+      id: 'v221',
+      japanese: 'ノート',
+      reading: 'のーと',
+      english: 'notebook',
+      example: {
+        japanese: 'ノートに書きます。',
+        english: 'I write in a notebook.'
+      }
+    },
+    {
+      id: 'v222',
+      japanese: '辞書',
+      reading: 'じしょ',
+      english: 'dictionary',
+      example: {
+        japanese: '辞書を引きます。',
+        english: 'I look up words in a dictionary.'
+      }
+    },
+    {
+      id: 'v223',
+      japanese: '鞄',
+      reading: 'かばん',
+      english: 'bag',
+      example: {
+        japanese: '鞄を持ちます。',
+        english: 'I carry a bag.'
+      }
+    },
+    {
+      id: 'v224',
+      japanese: '傘',
+      reading: 'かさ',
+      english: 'umbrella',
+      example: {
+        japanese: '傘を持ちます。',
+        english: 'I carry an umbrella.'
+      }
+    },
+    {
+      id: 'v225',
+      japanese: '鍵',
+      reading: 'かぎ',
+      english: 'key',
+      example: {
+        japanese: '鍵を忘れました。',
+        english: 'I forgot my key.'
+      }
+    },
+    {
+      id: 'v226',
+      japanese: '財布',
+      reading: 'さいふ',
+      english: 'wallet',
+      example: {
+        japanese: '財布を忘れました。',
+        english: 'I forgot my wallet.'
+      }
+    },
+    {
+      id: 'v227',
+      japanese: '眼鏡',
+      reading: 'めがね',
+      english: 'glasses',
+      example: {
+        japanese: '眼鏡をかけます。',
+        english: 'I wear glasses.'
+      }
+    },
+    {
+      id: 'v228',
+      japanese: '時計',
+      reading: 'とけい',
+      english: 'watch',
+      example: {
+        japanese: '時計をします。',
+        english: 'I wear a watch.'
+      }
+    },
+    {
+      id: 'v229',
+      japanese: '指輪',
+      reading: 'ゆびわ',
+      english: 'ring',
+      example: {
+        japanese: '指輪をはめます。',
+        english: 'I wear a ring.'
+      }
+    },
+    {
+      id: 'v230',
+      japanese: 'ネックレス',
+      reading: 'ねっくれす',
+      english: 'necklace',
+      example: {
+        japanese: 'ネックレスをします。',
+        english: 'I wear a necklace.'
+      }
+    },
+    // Transportation
+    {
+      id: 'v231',
+      japanese: '自転車',
+      reading: 'じてんしゃ',
+      english: 'bicycle',
+      example: {
+        japanese: '自転車に乗ります。',
+        english: 'I ride a bicycle.'
+      }
+    },
+    {
+      id: 'v232',
+      japanese: 'バス',
+      reading: 'ばす',
+      english: 'bus',
+      example: {
+        japanese: 'バスに乗ります。',
+        english: 'I ride the bus.'
+      }
+    },
+    {
+      id: 'v233',
+      japanese: '飛行機',
+      reading: 'ひこうき',
+      english: 'airplane',
+      example: {
+        japanese: '飛行機で行きます。',
+        english: 'I go by airplane.'
+      }
+    },
+    {
+      id: 'v234',
+      japanese: '船',
+      reading: 'ふね',
+      english: 'ship',
+      example: {
+        japanese: '船で行きます。',
+        english: 'I go by ship.'
+      }
+    },
+    {
+      id: 'v235',
+      japanese: 'タクシー',
+      reading: 'たくしー',
+      english: 'taxi',
+      example: {
+        japanese: 'タクシーに乗ります。',
+        english: 'I take a taxi.'
+      }
+    },
+    {
+      id: 'v236',
+      japanese: '地下鉄',
+      reading: 'ちかてつ',
+      english: 'subway',
+      example: {
+        japanese: '地下鉄で行きます。',
+        english: 'I go by subway.'
+      }
+    },
+    // Weather and seasons
+    {
+      id: 'v237',
+      japanese: '天気',
+      reading: 'てんき',
+      english: 'weather',
+      example: {
+        japanese: '天気が良いです。',
+        english: 'The weather is good.'
+      }
+    },
+    {
+      id: 'v238',
+      japanese: '春',
+      reading: 'はる',
+      english: 'spring',
+      example: {
+        japanese: '春が好きです。',
+        english: 'I like spring.'
+      }
+    },
+    {
+      id: 'v239',
+      japanese: '夏',
+      reading: 'なつ',
+      english: 'summer',
+      example: {
+        japanese: '夏は暑いです。',
+        english: 'Summer is hot.'
+      }
+    },
+    {
+      id: 'v240',
+      japanese: '秋',
+      reading: 'あき',
+      english: 'autumn',
+      example: {
+        japanese: '秋は涼しいです。',
+        english: 'Autumn is cool.'
+      }
+    },
+    {
+      id: 'v241',
+      japanese: '冬',
+      reading: 'ふゆ',
+      english: 'winter',
+      example: {
+        japanese: '冬は寒いです。',
+        english: 'Winter is cold.'
+      }
+    },
+    {
+      id: 'v242',
+      japanese: '雲',
+      reading: 'くも',
+      english: 'cloud',
+      example: {
+        japanese: '雲があります。',
+        english: 'There are clouds.'
+      }
+    },
+    {
+      id: 'v243',
+      japanese: '雷',
+      reading: 'かみなり',
+      english: 'thunder',
+      example: {
+        japanese: '雷が鳴ります。',
+        english: 'Thunder rumbles.'
+      }
+    },
+    {
+      id: 'v244',
+      japanese: '虹',
+      reading: 'にじ',
+      english: 'rainbow',
+      example: {
+        japanese: '虹が見えます。',
+        english: 'I can see a rainbow.'
+      }
+    },
+    // Common activities
+    {
+      id: 'v245',
+      japanese: '勉強',
+      reading: 'べんきょう',
+      english: 'study',
+      example: {
+        japanese: '勉強をします。',
+        english: 'I study.'
+      }
+    },
+    {
+      id: 'v246',
+      japanese: '仕事',
+      reading: 'しごと',
+      english: 'work',
+      example: {
+        japanese: '仕事をします。',
+        english: 'I work.'
+      },
+      dictionaryLink: 'https://jisho.org/search/仕事'
+    },
+    {
+      id: 'v247',
+      japanese: '買い物',
+      reading: 'かいもの',
+      english: 'shopping',
+      example: {
+        japanese: '買い物をします。',
+        english: 'I go shopping.'
+      },
+      dictionaryLink: 'https://jisho.org/search/買い物'
+    },
+    {
+      id: 'v248',
+      japanese: '料理',
+      reading: 'りょうり',
+      english: 'cooking',
+      example: {
+        japanese: '料理をします。',
+        english: 'I cook.'
+      },
+      dictionaryLink: 'https://jisho.org/search/料理'
+    },
+    {
+      id: 'v249',
+      japanese: '掃除',
+      reading: 'そうじ',
+      english: 'cleaning',
+      example: {
+        japanese: '掃除をします。',
+        english: 'I clean.'
+      },
+      dictionaryLink: 'https://jisho.org/search/掃除'
+    },
+    {
+      id: 'v250',
+      japanese: '洗濯',
+      reading: 'せんたく',
+      english: 'laundry',
+      example: {
+        japanese: '洗濯をします。',
+        english: 'I do laundry.'
+      },
+      dictionaryLink: 'https://jisho.org/search/洗濯'
+    },
+    {
+      id: 'v251',
+      japanese: '散歩',
+      reading: 'さんぽ',
+      english: 'walk',
+      example: {
+        japanese: '散歩をします。',
+        english: 'I take a walk.'
+      }
+    },
+    {
+      id: 'v252',
+      japanese: '運動',
+      reading: 'うんどう',
+      english: 'exercise',
+      example: {
+        japanese: '運動をします。',
+        english: 'I exercise.'
+      }
+    },
+    {
+      id: 'v253',
+      japanese: '旅行',
+      reading: 'りょこう',
+      english: 'travel',
+      example: {
+        japanese: '旅行をします。',
+        english: 'I travel.'
+      }
+    },
+    {
+      id: 'v254',
+      japanese: '休み',
+      reading: 'やすみ',
+      english: 'rest, vacation',
+      example: {
+        japanese: '休みを取ります。',
+        english: 'I take a break.'
+      }
+    },
+    {
+      id: 'v255',
+      japanese: '遊び',
+      reading: 'あそび',
+      english: 'play',
+      example: {
+        japanese: '遊びをします。',
+        english: 'I play.'
+      }
+    },
+    {
+      id: 'v256',
+      japanese: 'ゲーム',
+      reading: 'げーむ',
+      english: 'game',
+      example: {
+        japanese: 'ゲームをします。',
+        english: 'I play games.'
+      }
+    },
+    {
+      id: 'v257',
+      japanese: 'スポーツ',
+      reading: 'すぽーつ',
+      english: 'sports',
+      example: {
+        japanese: 'スポーツをします。',
+        english: 'I play sports.'
+      }
+    },
+    {
+      id: 'v258',
+      japanese: '映画',
+      reading: 'えいが',
+      english: 'movie',
+      example: {
+        japanese: '映画を見ます。',
+        english: 'I watch movies.'
+      }
+    },
+    {
+      id: 'v259',
+      japanese: 'パーティー',
+      reading: 'ぱーてぃー',
+      english: 'party',
+      example: {
+        japanese: 'パーティーをします。',
+        english: 'I have a party.'
+      }
+    },
+    {
+      id: 'v260',
+      japanese: '会議',
+      reading: 'かいぎ',
+      english: 'meeting',
+      example: {
+        japanese: '会議をします。',
+        english: 'I have a meeting.'
+      }
+    },
+    // Common adjectives (more)
+    {
+      id: 'v261',
+      japanese: '可愛い',
+      reading: 'かわいい',
+      english: 'cute',
+      example: {
+        japanese: '可愛い猫です。',
+        english: 'It\'s a cute cat.'
+      }
+    },
+    {
+      id: 'v262',
+      japanese: '美しい',
+      reading: 'うつくしい',
+      english: 'beautiful',
+      example: {
+        japanese: '美しい花です。',
+        english: 'It\'s a beautiful flower.'
+      }
+    },
+    {
+      id: 'v263',
+      japanese: '醜い',
+      reading: 'みにくい',
+      english: 'ugly',
+      example: {
+        japanese: '醜い建物です。',
+        english: 'It\'s an ugly building.'
+      }
+    },
+    {
+      id: 'v264',
+      japanese: '強い',
+      reading: 'つよい',
+      english: 'strong',
+      example: {
+        japanese: '強い人です。',
+        english: 'He\'s a strong person.'
+      }
+    },
+    {
+      id: 'v265',
+      japanese: '弱い',
+      reading: 'よわい',
+      english: 'weak',
+      example: {
+        japanese: '弱い人です。',
+        english: 'He\'s a weak person.'
+      }
+    },
+    {
+      id: 'v266',
+      japanese: '太い',
+      reading: 'ふとい',
+      english: 'thick, fat',
+      example: {
+        japanese: '太い木です。',
+        english: 'It\'s a thick tree.'
+      }
+    },
+    {
+      id: 'v267',
+      japanese: '細い',
+      reading: 'ほそい',
+      english: 'thin, slender',
+      example: {
+        japanese: '細い人です。',
+        english: 'He\'s a thin person.'
+      }
+    },
+    {
+      id: 'v268',
+      japanese: '太った',
+      reading: 'ふとった',
+      english: 'fat',
+      example: {
+        japanese: '太った人です。',
+        english: 'He\'s a fat person.'
+      }
+    },
+    {
+      id: 'v269',
+      japanese: '痩せた',
+      reading: 'やせた',
+      english: 'thin',
+      example: {
+        japanese: '痩せた人です。',
+        english: 'He\'s a thin person.'
+      }
+    },
+    {
+      id: 'v270',
+      japanese: '若い',
+      reading: 'わかい',
+      english: 'young',
+      example: {
+        japanese: '若い人です。',
+        english: 'He\'s a young person.'
+      }
+    },
+    {
+      id: 'v271',
+      japanese: '年寄り',
+      reading: 'としより',
+      english: 'old person',
+      example: {
+        japanese: '年寄りの人です。',
+        english: 'He\'s an old person.'
+      }
+    },
+    {
+      id: 'v272',
+      japanese: '若い',
+      reading: 'わかい',
+      english: 'young',
+      example: {
+        japanese: '若い人です。',
+        english: 'He\'s a young person.'
+      }
+    },
+    {
+      id: 'v273',
+      japanese: '大人',
+      reading: 'おとな',
+      english: 'adult',
+      example: {
+        japanese: '大人の人です。',
+        english: 'He\'s an adult.'
+      }
+    },
+    {
+      id: 'v274',
+      japanese: '子供',
+      reading: 'こども',
+      english: 'child',
+      example: {
+        japanese: '子供の人です。',
+        english: 'He\'s a child.'
+      }
+    },
+    {
+      id: 'v275',
+      japanese: '赤ちゃん',
+      reading: 'あかちゃん',
+      english: 'baby',
+      example: {
+        japanese: '赤ちゃんがいます。',
+        english: 'There\'s a baby.'
+      }
+    },
+    // Common nouns (more)
+    {
+      id: 'v276',
+      japanese: '問題',
+      reading: 'もんだい',
+      english: 'problem',
+      example: {
+        japanese: '問題があります。',
+        english: 'There\'s a problem.'
+      }
+    },
+    {
+      id: 'v277',
+      japanese: '答え',
+      reading: 'こたえ',
+      english: 'answer',
+      example: {
+        japanese: '答えを知っています。',
+        english: 'I know the answer.'
+      }
+    },
+    {
+      id: 'v278',
+      japanese: '質問',
+      reading: 'しつもん',
+      english: 'question',
+      example: {
+        japanese: '質問をします。',
+        english: 'I ask a question.'
+      }
+    },
+    {
+      id: 'v279',
+      japanese: '宿題',
+      reading: 'しゅくだい',
+      english: 'homework',
+      example: {
+        japanese: '宿題をします。',
+        english: 'I do homework.'
+      }
+    },
+    {
+      id: 'v280',
+      japanese: 'テスト',
+      reading: 'てすと',
+      english: 'test',
+      example: {
+        japanese: 'テストを受けます。',
+        english: 'I take a test.'
+      }
+    },
+    {
+      id: 'v281',
+      japanese: '試験',
+      reading: 'しけん',
+      english: 'exam',
+      example: {
+        japanese: '試験を受けます。',
+        english: 'I take an exam.'
+      }
+    },
+    {
+      id: 'v282',
+      japanese: '授業',
+      reading: 'じゅぎょう',
+      english: 'class',
+      example: {
+        japanese: '授業を受けます。',
+        english: 'I attend class.'
+      }
+    },
+    {
+      id: 'v283',
+      japanese: '宿題',
+      reading: 'しゅくだい',
+      english: 'homework',
+      example: {
+        japanese: '宿題をします。',
+        english: 'I do homework.'
+      }
+    },
+    {
+      id: 'v284',
+      japanese: 'レポート',
+      reading: 'れぽーと',
+      english: 'report',
+      example: {
+        japanese: 'レポートを書きます。',
+        english: 'I write a report.'
+      }
+    },
+    {
+      id: 'v285',
+      japanese: '作文',
+      reading: 'さくぶん',
+      english: 'composition',
+      example: {
+        japanese: '作文を書きます。',
+        english: 'I write a composition.'
+      }
+    },
+    {
+      id: 'v286',
+      japanese: '発表',
+      reading: 'はっぴょう',
+      english: 'presentation',
+      example: {
+        japanese: '発表をします。',
+        english: 'I give a presentation.'
+      }
+    },
+    {
+      id: 'v287',
+      japanese: '説明',
+      reading: 'せつめい',
+      english: 'explanation',
+      example: {
+        japanese: '説明をします。',
+        english: 'I give an explanation.'
+      }
+    },
+    {
+      id: 'v288',
+      japanese: '理由',
+      reading: 'りゆう',
+      english: 'reason',
+      example: {
+        japanese: '理由を聞きます。',
+        english: 'I ask for the reason.'
+      }
+    },
+    {
+      id: 'v289',
+      japanese: '原因',
+      reading: 'げんいん',
+      english: 'cause',
+      example: {
+        japanese: '原因を調べます。',
+        english: 'I investigate the cause.'
+      }
+    },
+    {
+      id: 'v290',
+      japanese: '結果',
+      reading: 'けっか',
+      english: 'result',
+      example: {
+        japanese: '結果を待ちます。',
+        english: 'I wait for the result.'
+      }
+    },
+    {
+      id: 'v291',
+      japanese: '目的',
+      reading: 'もくてき',
+      english: 'purpose',
+      example: {
+        japanese: '目的を説明します。',
+        english: 'I explain the purpose.'
+      }
+    },
+    {
+      id: 'v292',
+      japanese: '目標',
+      reading: 'もくひょう',
+      english: 'goal',
+      example: {
+        japanese: '目標を立てます。',
+        english: 'I set a goal.'
+      }
+    },
+    {
+      id: 'v293',
+      japanese: '計画',
+      reading: 'けいかく',
+      english: 'plan',
+      example: {
+        japanese: '計画を立てます。',
+        english: 'I make a plan.'
+      }
+    },
+    {
+      id: 'v294',
+      japanese: '予定',
+      reading: 'よてい',
+      english: 'schedule',
+      example: {
+        japanese: '予定を確認します。',
+        english: 'I check the schedule.'
+      }
+    },
+    {
+      id: 'v295',
+      japanese: '約束',
+      reading: 'やくそく',
+      english: 'promise',
+      example: {
+        japanese: '約束を守ります。',
+        english: 'I keep my promise.'
+      }
+    },
+    {
+      id: 'v296',
+      japanese: '希望',
+      reading: 'きぼう',
+      english: 'hope',
+      example: {
+        japanese: '希望を持ちます。',
+        english: 'I have hope.'
+      }
+    },
+    {
+      id: 'v297',
+      japanese: '夢',
+      reading: 'ゆめ',
+      english: 'dream',
+      example: {
+        japanese: '夢を見ます。',
+        english: 'I have a dream.'
+      }
+    },
+    {
+      id: 'v298',
+      japanese: '未来',
+      reading: 'みらい',
+      english: 'future',
+      example: {
+        japanese: '未来を考えます。',
+        english: 'I think about the future.'
+      }
+    },
+    {
+      id: 'v299',
+      japanese: '過去',
+      reading: 'かこ',
+      english: 'past',
+      example: {
+        japanese: '過去を振り返ります。',
+        english: 'I look back at the past.'
+      }
+    },
+    {
+      id: 'v300',
+      japanese: '現在',
+      reading: 'げんざい',
+      english: 'present',
+      example: {
+        japanese: '現在の状況を説明します。',
+        english: 'I explain the current situation.'
+      }
+    },
+    {
+      id: 'v301',
+      japanese: '状況',
+      reading: 'じょうきょう',
+      english: 'situation',
+      example: {
+        japanese: '状況を説明します。',
+        english: 'I explain the situation.'
+      }
+    },
+    {
+      id: 'v302',
+      japanese: '状態',
+      reading: 'じょうたい',
+      english: 'condition',
+      example: {
+        japanese: '状態を確認します。',
+        english: 'I check the condition.'
+      }
+    },
+    {
+      id: 'v303',
+      japanese: '環境',
+      reading: 'かんきょう',
+      english: 'environment',
+      example: {
+        japanese: '環境を守ります。',
+        english: 'I protect the environment.'
+      }
+    },
+    {
+      id: 'v304',
+      japanese: '社会',
+      reading: 'しゃかい',
+      english: 'society',
+      example: {
+        japanese: '社会について考えます。',
+        english: 'I think about society.'
+      }
+    },
+    {
+      id: 'v305',
+      japanese: '文化',
+      reading: 'ぶんか',
+      english: 'culture',
+      example: {
+        japanese: '文化を学びます。',
+        english: 'I learn about culture.'
+      }
+    },
+    {
+      id: 'v306',
+      japanese: '歴史',
+      reading: 'れきし',
+      english: 'history',
+      example: {
+        japanese: '歴史を勉強します。',
+        english: 'I study history.'
+      }
+    },
+    {
+      id: 'v307',
+      japanese: '地理',
+      reading: 'ちり',
+      english: 'geography',
+      example: {
+        japanese: '地理を勉強します。',
+        english: 'I study geography.'
+      }
+    },
+    {
+      id: 'v308',
+      japanese: '科学',
+      reading: 'かがく',
+      english: 'science',
+      example: {
+        japanese: '科学を勉強します。',
+        english: 'I study science.'
+      }
+    },
+    {
+      id: 'v309',
+      japanese: '数学',
+      reading: 'すうがく',
+      english: 'mathematics',
+      example: {
+        japanese: '数学を勉強します。',
+        english: 'I study mathematics.'
+      }
+    },
+    {
+      id: 'v310',
+      japanese: '英語',
+      reading: 'えいご',
+      english: 'English',
+      example: {
+        japanese: '英語を勉強します。',
+        english: 'I study English.'
+      }
+    },
+    {
+      id: 'v311',
+      japanese: '日本語',
+      reading: 'にほんご',
+      english: 'Japanese',
+      example: {
+        japanese: '日本語を勉強します。',
+        english: 'I study Japanese.'
+      }
+    },
+    {
+      id: 'v312',
+      japanese: '言語',
+      reading: 'げんご',
+      english: 'language',
+      example: {
+        japanese: '言語を学びます。',
+        english: 'I learn languages.'
+      }
+    },
+    {
+      id: 'v313',
+      japanese: '言葉',
+      reading: 'ことば',
+      english: 'word',
+      example: {
+        japanese: '言葉を覚えます。',
+        english: 'I memorize words.'
+      }
+    },
+    {
+      id: 'v314',
+      japanese: '文法',
+      reading: 'ぶんぽう',
+      english: 'grammar',
+      example: {
+        japanese: '文法を勉強します。',
+        english: 'I study grammar.'
+      }
+    },
+    {
+      id: 'v315',
+      japanese: '発音',
+      reading: 'はつおん',
+      english: 'pronunciation',
+      example: {
+        japanese: '発音を練習します。',
+        english: 'I practice pronunciation.'
+      }
+    },
+    {
+      id: 'v316',
+      japanese: '会話',
+      reading: 'かいわ',
+      english: 'conversation',
+      example: {
+        japanese: '会話を練習します。',
+        english: 'I practice conversation.'
+      }
+    },
+    {
+      id: 'v317',
+      japanese: '翻訳',
+      reading: 'ほんやく',
+      english: 'translation',
+      example: {
+        japanese: '翻訳をします。',
+        english: 'I translate.'
+      }
+    },
+    {
+      id: 'v318',
+      japanese: '通訳',
+      reading: 'つうやく',
+      english: 'interpreting',
+      example: {
+        japanese: '通訳をします。',
+        english: 'I interpret.'
+      }
+    },
+    {
+      id: 'v319',
+      japanese: '技術',
+      reading: 'ぎじゅつ',
+      english: 'technology',
+      example: {
+        japanese: '技術を学びます。',
+        english: 'I learn technology.'
+      }
+    },
+    {
+      id: 'v320',
+      japanese: '機械',
+      reading: 'きかい',
+      english: 'machine',
+      example: {
+        japanese: '機械を使います。',
+        english: 'I use a machine.'
+      }
+    },
+    {
+      id: 'v321',
+      japanese: '道具',
+      reading: 'どうぐ',
+      english: 'tool',
+      example: {
+        japanese: '道具を使います。',
+        english: 'I use a tool.'
+      }
+    },
+    {
+      id: 'v322',
+      japanese: '材料',
+      reading: 'ざいりょう',
+      english: 'material',
+      example: {
+        japanese: '材料を買います。',
+        english: 'I buy materials.'
+      }
+    },
+    {
+      id: 'v323',
+      japanese: '製品',
+      reading: 'せいひん',
+      english: 'product',
+      example: {
+        japanese: '製品を作ります。',
+        english: 'I make products.'
+      }
+    },
+    {
+      id: 'v324',
+      japanese: '商品',
+      reading: 'しょうひん',
+      english: 'goods',
+      example: {
+        japanese: '商品を売ります。',
+        english: 'I sell goods.'
+      }
+    },
+    {
+      id: 'v325',
+      japanese: '価格',
+      reading: 'かかく',
+      english: 'price',
+      example: {
+        japanese: '価格を確認します。',
+        english: 'I check the price.'
+      }
+    },
+    {
+      id: 'v326',
+      japanese: '値段',
+      reading: 'ねだん',
+      english: 'price',
+      example: {
+        japanese: '値段を聞きます。',
+        english: 'I ask about the price.'
+      }
+    },
+    {
+      id: 'v327',
+      japanese: '値引き',
+      reading: 'ねびき',
+      english: 'discount',
+      example: {
+        japanese: '値引きをします。',
+        english: 'I give a discount.'
+      }
+    },
+    {
+      id: 'v328',
+      japanese: '割引',
+      reading: 'わりびき',
+      english: 'discount',
+      example: {
+        japanese: '割引をします。',
+        english: 'I give a discount.'
+      }
+    },
+    {
+      id: 'v329',
+      japanese: '特価',
+      reading: 'とっか',
+      english: 'special price',
+      example: {
+        japanese: '特価で売ります。',
+        english: 'I sell at a special price.'
+      }
+    },
+    {
+      id: 'v330',
+      japanese: '無料',
+      reading: 'むりょう',
+      english: 'free',
+      example: {
+        japanese: '無料で提供します。',
+        english: 'I provide it for free.'
+      }
+    },
+    {
+      id: 'v331',
+      japanese: '有料',
+      reading: 'ゆうりょう',
+      english: 'paid',
+      example: {
+        japanese: '有料で提供します。',
+        english: 'I provide it for a fee.'
+      }
+    },
+    {
+      id: 'v332',
+      japanese: '料金',
+      reading: 'りょうきん',
+      english: 'fee',
+      example: {
+        japanese: '料金を払います。',
+        english: 'I pay the fee.'
+      }
+    },
+    {
+      id: 'v333',
+      japanese: '費用',
+      reading: 'ひよう',
+      english: 'cost',
+      example: {
+        japanese: '費用を計算します。',
+        english: 'I calculate the cost.'
+      }
+    },
+    {
+      id: 'v334',
+      japanese: '予算',
+      reading: 'よさん',
+      english: 'budget',
+      example: {
+        japanese: '予算を立てます。',
+        english: 'I make a budget.'
+      }
+    },
+    {
+      id: 'v335',
+      japanese: '収入',
+      reading: 'しゅうにゅう',
+      english: 'income',
+      example: {
+        japanese: '収入を増やします。',
+        english: 'I increase my income.'
+      }
+    },
+    {
+      id: 'v336',
+      japanese: '支出',
+      reading: 'ししゅつ',
+      english: 'expense',
+      example: {
+        japanese: '支出を減らします。',
+        english: 'I reduce expenses.'
+      }
+    },
+    {
+      id: 'v337',
+      japanese: '貯金',
+      reading: 'ちょきん',
+      english: 'savings',
+      example: {
+        japanese: '貯金をします。',
+        english: 'I save money.'
+      }
+    },
+    {
+      id: 'v338',
+      japanese: '借金',
+      reading: 'しゃっきん',
+      english: 'debt',
+      example: {
+        japanese: '借金を返します。',
+        english: 'I pay back debt.'
+      }
+    },
+    {
+      id: 'v339',
+      japanese: '投資',
+      reading: 'とうし',
+      english: 'investment',
+      example: {
+        japanese: '投資をします。',
+        english: 'I make an investment.'
+      }
+    },
+    {
+      id: 'v340',
+      japanese: '利益',
+      reading: 'りえき',
+      english: 'profit',
+      example: {
+        japanese: '利益を上げます。',
+        english: 'I make a profit.'
+      }
+    },
+    {
+      id: 'v341',
+      japanese: '損失',
+      reading: 'そんしつ',
+      english: 'loss',
+      example: {
+        japanese: '損失を出します。',
+        english: 'I incur a loss.'
+      }
+    },
+    {
+      id: 'v342',
+      japanese: '経済',
+      reading: 'けいざい',
+      english: 'economy',
+      example: {
+        japanese: '経済を勉強します。',
+        english: 'I study economics.'
+      }
+    },
+    {
+      id: 'v343',
+      japanese: '市場',
+      reading: 'しじょう',
+      english: 'market',
+      example: {
+        japanese: '市場を調査します。',
+        english: 'I research the market.'
+      }
+    },
+    {
+      id: 'v344',
+      japanese: '競争',
+      reading: 'きょうそう',
+      english: 'competition',
+      example: {
+        japanese: '競争に参加します。',
+        english: 'I participate in competition.'
+      }
+    },
+    {
+      id: 'v345',
+      japanese: '協力',
+      reading: 'きょうりょく',
+      english: 'cooperation',
+      example: {
+        japanese: '協力をします。',
+        english: 'I cooperate.'
+      }
+    },
+    {
+      id: 'v346',
+      japanese: '関係',
+      reading: 'かんけい',
+      english: 'relationship',
+      example: {
+        japanese: '関係を築きます。',
+        english: 'I build a relationship.'
+      }
+    },
+    {
+      id: 'v347',
+      japanese: '交流',
+      reading: 'こうりゅう',
+      english: 'exchange',
+      example: {
+        japanese: '交流をします。',
+        english: 'I exchange.'
+      }
+    },
+    {
+      id: 'v348',
+      japanese: '連絡',
+      reading: 'れんらく',
+      english: 'contact',
+      example: {
+        japanese: '連絡を取ります。',
+        english: 'I make contact.'
+      }
+    },
+    {
+      id: 'v349',
+      japanese: '情報',
+      reading: 'じょうほう',
+      english: 'information',
+      example: {
+        japanese: '情報を集めます。',
+        english: 'I gather information.'
+      }
+    },
+    {
+      id: 'v350',
+      japanese: 'データ',
+      reading: 'でーた',
+      english: 'data',
+      example: {
+        japanese: 'データを分析します。',
+        english: 'I analyze data.'
+      }
+    },
+    {
+      id: 'v351',
+      japanese: '資料',
+      reading: 'しりょう',
+      english: 'materials',
+      example: {
+        japanese: '資料を準備します。',
+        english: 'I prepare materials.'
+      }
+    },
+    {
+      id: 'v352',
+      japanese: '記録',
+      reading: 'きろく',
+      english: 'record',
+      example: {
+        japanese: '記録を残します。',
+        english: 'I leave a record.'
+      }
+    },
+    {
+      id: 'v353',
+      japanese: '記憶',
+      reading: 'きおく',
+      english: 'memory',
+      example: {
+        japanese: '記憶を残します。',
+        english: 'I leave a memory.'
+      }
+    },
+    {
+      id: 'v354',
+      japanese: '経験',
+      reading: 'けいけん',
+      english: 'experience',
+      example: {
+        japanese: '経験を積みます。',
+        english: 'I gain experience.'
+      }
+    },
+    {
+      id: 'v355',
+      japanese: '知識',
+      reading: 'ちしき',
+      english: 'knowledge',
+      example: {
+        japanese: '知識を増やします。',
+        english: 'I increase knowledge.'
+      }
+    },
+    {
+      id: 'v356',
+      japanese: '技能',
+      reading: 'ぎのう',
+      english: 'skill',
+      example: {
+        japanese: '技能を身につけます。',
+        english: 'I acquire skills.'
+      }
+    },
+    {
+      id: 'v357',
+      japanese: '能力',
+      reading: 'のうりょく',
+      english: 'ability',
+      example: {
+        japanese: '能力を高めます。',
+        english: 'I improve my ability.'
+      }
+    },
+    {
+      id: 'v358',
+      japanese: '才能',
+      reading: 'さいのう',
+      english: 'talent',
+      example: {
+        japanese: '才能を発揮します。',
+        english: 'I demonstrate talent.'
+      }
+    },
+    {
+      id: 'v359',
+      japanese: '努力',
+      reading: 'どりょく',
+      english: 'effort',
+      example: {
+        japanese: '努力をします。',
+        english: 'I make an effort.'
+      }
+    },
+    {
+      id: 'v360',
+      japanese: '成功',
+      reading: 'せいこう',
+      english: 'success',
+      example: {
+        japanese: '成功を収めます。',
+        english: 'I achieve success.'
+      }
+    },
+    {
+      id: 'v361',
+      japanese: '失敗',
+      reading: 'しっぱい',
+      english: 'failure',
+      example: {
+        japanese: '失敗をします。',
+        english: 'I fail.'
+      }
+    },
+    {
+      id: 'v362',
+      japanese: '挑戦',
+      reading: 'ちょうせん',
+      english: 'challenge',
+      example: {
+        japanese: '挑戦をします。',
+        english: 'I take on a challenge.'
+      }
+    },
+    {
+      id: 'v363',
+      japanese: '機会',
+      reading: 'きかい',
+      english: 'opportunity',
+      example: {
+        japanese: '機会を掴みます。',
+        english: 'I seize the opportunity.'
+      }
+    },
+    {
+      id: 'v364',
+      japanese: 'チャンス',
+      reading: 'ちゃんす',
+      english: 'chance',
+      example: {
+        japanese: 'チャンスを掴みます。',
+        english: 'I seize the chance.'
+      }
+    },
+    {
+      id: 'v365',
+      japanese: '可能性',
+      reading: 'かのうせい',
+      english: 'possibility',
+      example: {
+        japanese: '可能性を考えます。',
+        english: 'I consider the possibility.'
+      }
+    },
+    {
+      id: 'v366',
+      japanese: '選択',
+      reading: 'せんたく',
+      english: 'choice',
+      example: {
+        japanese: '選択をします。',
+        english: 'I make a choice.'
+      }
+    },
+    {
+      id: 'v367',
+      japanese: '決定',
+      reading: 'けってい',
+      english: 'decision',
+      example: {
+        japanese: '決定をします。',
+        english: 'I make a decision.'
+      }
+    },
+    {
+      id: 'v368',
+      japanese: '判断',
+      reading: 'はんだん',
+      english: 'judgment',
+      example: {
+        japanese: '判断をします。',
+        english: 'I make a judgment.'
+      }
+    },
+    {
+      id: 'v369',
+      japanese: '評価',
+      reading: 'ひょうか',
+      english: 'evaluation',
+      example: {
+        japanese: '評価をします。',
+        english: 'I evaluate.'
+      }
+    },
+    {
+      id: 'v370',
+      japanese: '批評',
+      reading: 'ひひょう',
+      english: 'criticism',
+      example: {
+        japanese: '批評をします。',
+        english: 'I criticize.'
+      }
+    },
+    {
+      id: 'v371',
+      japanese: '意見',
+      reading: 'いけん',
+      english: 'opinion',
+      example: {
+        japanese: '意見を述べます。',
+        english: 'I express my opinion.'
+      }
+    },
+    {
+      id: 'v372',
+      japanese: '提案',
+      reading: 'ていあん',
+      english: 'proposal',
+      example: {
+        japanese: '提案をします。',
+        english: 'I make a proposal.'
+      }
+    },
+    {
+      id: 'v373',
+      japanese: '要求',
+      reading: 'ようきゅう',
+      english: 'request',
+      example: {
+        japanese: '要求をします。',
+        english: 'I make a request.'
+      }
+    },
+    {
+      id: 'v374',
+      japanese: '依頼',
+      reading: 'いらい',
+      english: 'request',
+      example: {
+        japanese: '依頼をします。',
+        english: 'I make a request.'
+      }
+    },
+    {
+      id: 'v375',
+      japanese: '命令',
+      reading: 'めいれい',
+      english: 'order',
+      example: {
+        japanese: '命令を出します。',
+        english: 'I give an order.'
+      }
+    },
+    {
+      id: 'v376',
+      japanese: '指示',
+      reading: 'しじ',
+      english: 'instruction',
+      example: {
+        japanese: '指示を出します。',
+        english: 'I give instructions.'
+      }
+    },
+    {
+      id: 'v377',
+      japanese: '指導',
+      reading: 'しどう',
+      english: 'guidance',
+      example: {
+        japanese: '指導をします。',
+        english: 'I provide guidance.'
+      }
+    },
+    {
+      id: 'v378',
+      japanese: '教育',
+      reading: 'きょういく',
+      english: 'education',
+      example: {
+        japanese: '教育を受けます。',
+        english: 'I receive education.'
+      }
+    },
+    {
+      id: 'v379',
+      japanese: '学習',
+      reading: 'がくしゅう',
+      english: 'learning',
+      example: {
+        japanese: '学習をします。',
+        english: 'I learn.'
+      }
+    },
+    {
+      id: 'v380',
+      japanese: '練習',
+      reading: 'れんしゅう',
+      english: 'practice',
+      example: {
+        japanese: '練習をします。',
+        english: 'I practice.'
+      }
+    },
+    {
+      id: 'v381',
+      japanese: '訓練',
+      reading: 'くんれん',
+      english: 'training',
+      example: {
+        japanese: '訓練を受けます。',
+        english: 'I receive training.'
+      }
+    },
+    {
+      id: 'v382',
+      japanese: '研修',
+      reading: 'けんしゅう',
+      english: 'training',
+      example: {
+        japanese: '研修を受けます。',
+        english: 'I receive training.'
+      }
+    },
+    {
+      id: 'v383',
+      japanese: '研究',
+      reading: 'けんきゅう',
+      english: 'research',
+      example: {
+        japanese: '研究をします。',
+        english: 'I do research.'
+      }
+    },
+    {
+      id: 'v384',
+      japanese: '調査',
+      reading: 'ちょうさ',
+      english: 'investigation',
+      example: {
+        japanese: '調査をします。',
+        english: 'I investigate.'
+      }
+    },
+    {
+      id: 'v385',
+      japanese: '分析',
+      reading: 'ぶんせき',
+      english: 'analysis',
+      example: {
+        japanese: '分析をします。',
+        english: 'I analyze.'
+      }
+    },
+    {
+      id: 'v386',
+      japanese: '比較',
+      reading: 'ひかく',
+      english: 'comparison',
+      example: {
+        japanese: '比較をします。',
+        english: 'I compare.'
+      }
+    },
+    {
+      id: 'v387',
+      japanese: '検討',
+      reading: 'けんとう',
+      english: 'consideration',
+      example: {
+        japanese: '検討をします。',
+        english: 'I consider.'
+      }
+    },
+    {
+      id: 'v388',
+      japanese: '検証',
+      reading: 'けんしょう',
+      english: 'verification',
+      example: {
+        japanese: '検証をします。',
+        english: 'I verify.'
+      }
+    },
+    {
+      id: 'v389',
+      japanese: '確認',
+      reading: 'かくにん',
+      english: 'confirmation',
+      example: {
+        japanese: '確認をします。',
+        english: 'I confirm.'
+      }
+    },
+    {
+      id: 'v390',
+      japanese: '承認',
+      reading: 'しょうにん',
+      english: 'approval',
+      example: {
+        japanese: '承認をします。',
+        english: 'I approve.'
+      }
+    },
+    {
+      id: 'v391',
+      japanese: '許可',
+      reading: 'きょか',
+      english: 'permission',
+      example: {
+        japanese: '許可を求めます。',
+        english: 'I ask for permission.'
+      }
+    },
+    {
+      id: 'v392',
+      japanese: '承認',
+      reading: 'しょうにん',
+      english: 'approval',
+      example: {
+        japanese: '承認をします。',
+        english: 'I approve.'
+      }
+    },
+    {
+      id: 'v393',
+      japanese: '拒否',
+      reading: 'きょひ',
+      english: 'refusal',
+      example: {
+        japanese: '拒否をします。',
+        english: 'I refuse.'
+      }
+    },
+    {
+      id: 'v394',
+      japanese: '反対',
+      reading: 'はんたい',
+      english: 'opposition',
+      example: {
+        japanese: '反対をします。',
+        english: 'I oppose.'
+      }
+    },
+    {
+      id: 'v395',
+      japanese: '賛成',
+      reading: 'さんせい',
+      english: 'agreement',
+      example: {
+        japanese: '賛成をします。',
+        english: 'I agree.'
+      }
+    },
+    {
+      id: 'v396',
+      japanese: '支持',
+      reading: 'しじ',
+      english: 'support',
+      example: {
+        japanese: '支持をします。',
+        english: 'I support.'
+      }
+    },
+    {
+      id: 'v397',
+      japanese: '援助',
+      reading: 'えんじょ',
+      english: 'assistance',
+      example: {
+        japanese: '援助をします。',
+        english: 'I provide assistance.'
+      }
+    },
+    {
+      id: 'v398',
+      japanese: '協力',
+      reading: 'きょうりょく',
+      english: 'cooperation',
+      example: {
+        japanese: '協力をします。',
+        english: 'I cooperate.'
+      }
+    },
+    {
+      id: 'v399',
+      japanese: '支援',
+      reading: 'しえん',
+      english: 'support',
+      example: {
+        japanese: '支援をします。',
+        english: 'I provide support.'
+      }
+    },
+    {
+      id: 'v400',
+      japanese: '応援',
+      reading: 'おうえん',
+      english: 'cheering',
+      example: {
+        japanese: '応援をします。',
+        english: 'I cheer.'
       }
     }
   ]
