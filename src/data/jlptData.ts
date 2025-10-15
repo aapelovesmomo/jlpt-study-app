@@ -45,7 +45,7 @@ export const n5Data: JLPTLevel = {
     {
       id: 'desu-masu',
       title: 'です・ます (Desu/Masu)',
-      explanation: 'The polite form ending for verbs and adjectives. Used in formal situations.',
+      explanation: 'The polite form ending for verbs and adjectives. This is the most fundamental polite form in Japanese, used in formal situations, with strangers, and in business settings. It shows respect and politeness.',
       examples: [
         {
           japanese: '私は学生です。',
@@ -56,14 +56,24 @@ export const n5Data: JLPTLevel = {
           japanese: '今日は暑いです。',
           english: 'Today is hot.',
           romaji: 'Kyou wa atsui desu.'
+        },
+        {
+          japanese: '本を読みます。',
+          english: 'I read a book.',
+          romaji: 'Hon wo yomimasu.'
+        },
+        {
+          japanese: '映画を見ました。',
+          english: 'I watched a movie.',
+          romaji: 'Eiga wo mimashita.'
         }
       ],
-      usage: 'Use です with nouns and い-adjectives. Use ます with verbs.'
+      usage: 'Use です with nouns and い-adjectives. Use ます with verbs. This form is essential for polite conversation and should be used when speaking to people you don\'t know well or in formal situations.'
     },
     {
       id: 'particle-wa',
       title: 'は (Wa) Particle',
-      explanation: 'The topic particle. Indicates what the sentence is about.',
+      explanation: 'The topic particle that indicates what the sentence is about. It marks the main topic or theme of the conversation. Unlike が which marks the subject, は marks the topic and often implies contrast or emphasis.',
       examples: [
         {
           japanese: '私は田中です。',
@@ -74,14 +84,24 @@ export const n5Data: JLPTLevel = {
           japanese: 'これは本です。',
           english: 'This is a book.',
           romaji: 'Kore wa hon desu.'
+        },
+        {
+          japanese: '今日は忙しいです。',
+          english: 'Today is busy.',
+          romaji: 'Kyou wa isogashii desu.'
+        },
+        {
+          japanese: '日本語は難しいです。',
+          english: 'Japanese is difficult.',
+          romaji: 'Nihongo wa muzukashii desu.'
         }
       ],
-      usage: 'Place は after the topic of the sentence.'
+      usage: 'Place は after the topic of the sentence. It often implies contrast (as in "as for X...") and is used to introduce or change topics in conversation.'
     },
     {
       id: 'particle-ga',
       title: 'が (Ga) Particle',
-      explanation: 'The subject particle. Indicates the subject of the sentence.',
+      explanation: 'The subject particle that indicates the subject of the sentence. It marks who or what performs the action. Often used with existence verbs (います/あります), ability expressions, and when introducing new information.',
       examples: [
         {
           japanese: '雨が降っています。',
@@ -92,14 +112,24 @@ export const n5Data: JLPTLevel = {
           japanese: '猫がいます。',
           english: 'There is a cat.',
           romaji: 'Neko ga imasu.'
+        },
+        {
+          japanese: '私が行きます。',
+          english: 'I will go.',
+          romaji: 'Watashi ga ikimasu.'
+        },
+        {
+          japanese: '日本語が分かります。',
+          english: 'I understand Japanese.',
+          romaji: 'Nihongo ga wakarimasu.'
         }
       ],
-      usage: 'Use が to mark the subject, especially with existence verbs like います and あります.'
+      usage: 'Use が to mark the subject, especially with existence verbs like います and あります, ability expressions, and when emphasizing who does something.'
     },
     {
       id: 'particle-wo',
       title: 'を (Wo) Particle',
-      explanation: 'The object particle. Marks the direct object of a verb.',
+      explanation: 'The object particle that marks the direct object of a verb. It indicates what is being acted upon by the verb. Essential for transitive verbs that require an object.',
       examples: [
         {
           japanese: '本を読みます。',
@@ -110,14 +140,24 @@ export const n5Data: JLPTLevel = {
           japanese: 'コーヒーを飲みます。',
           english: 'I drink coffee.',
           romaji: 'Koohii wo nomimasu.'
+        },
+        {
+          japanese: '日本語を勉強します。',
+          english: 'I study Japanese.',
+          romaji: 'Nihongo wo benkyou shimasu.'
+        },
+        {
+          japanese: 'テレビを見ます。',
+          english: 'I watch TV.',
+          romaji: 'Terebi wo mimasu.'
         }
       ],
-      usage: 'Place を before the verb to indicate what is being acted upon.'
+      usage: 'Place を before the verb to indicate what is being acted upon. Used with transitive verbs that require a direct object.'
     },
     {
       id: 'particle-ni',
       title: 'に (Ni) Particle',
-      explanation: 'Indicates direction, time, or indirect object.',
+      explanation: 'A versatile particle that indicates direction (where to), time (when), indirect object (to whom), and purpose. One of the most commonly used particles in Japanese.',
       examples: [
         {
           japanese: '学校に行きます。',
@@ -128,9 +168,19 @@ export const n5Data: JLPTLevel = {
           japanese: '七時に起きます。',
           english: 'I wake up at 7 o\'clock.',
           romaji: 'Shichiji ni okimasu.'
+        },
+        {
+          japanese: '友達に手紙を書きます。',
+          english: 'I write a letter to my friend.',
+          romaji: 'Tomodachi ni tegami wo kakimasu.'
+        },
+        {
+          japanese: '買い物に行きます。',
+          english: 'I go shopping (for the purpose of shopping).',
+          romaji: 'Kaimono ni ikimasu.'
         }
       ],
-      usage: 'Use に for destinations, times, and indirect objects.'
+      usage: 'Use に for destinations (where to), specific times (when), indirect objects (to whom), and purpose (for what).'
     },
     {
       id: 'particle-de',
@@ -639,7 +689,7 @@ export const n5Data: JLPTLevel = {
     {
       id: 'particle-de',
       title: 'で (De) Particle',
-      explanation: 'Indicates location of action or means/method.',
+      explanation: 'Indicates the location where an action takes place or the means/method used to perform an action. Also used to indicate the scope or extent of something.',
       examples: [
         {
           japanese: '図書館で勉強します。',
@@ -650,9 +700,19 @@ export const n5Data: JLPTLevel = {
           japanese: '電車で行きます。',
           english: 'I go by train.',
           romaji: 'Densha de ikimasu.'
+        },
+        {
+          japanese: '日本語で話します。',
+          english: 'I speak in Japanese.',
+          romaji: 'Nihongo de hanashimasu.'
+        },
+        {
+          japanese: '一人で行きます。',
+          english: 'I go alone.',
+          romaji: 'Hitori de ikimasu.'
         }
       ],
-      usage: 'Use で for location of action or means/method.'
+      usage: 'Use で to indicate where an action happens, what means/method is used, or the scope/extent of something.'
     },
     {
       id: 'particle-wo',
@@ -711,7 +771,7 @@ export const n5Data: JLPTLevel = {
     {
       id: 'particle-no',
       title: 'の (No) Particle',
-      explanation: 'Indicates possession or connection between nouns.',
+      explanation: 'Indicates possession, connection between nouns, or modifies nouns. It\'s like the English "of" or possessive "apostrophe s". Essential for creating noun phrases and showing relationships between things.',
       examples: [
         {
           japanese: '私の本です。',
@@ -722,14 +782,24 @@ export const n5Data: JLPTLevel = {
           japanese: '学校の先生です。',
           english: 'He\'s a school teacher.',
           romaji: 'Gakkou no sensei desu.'
+        },
+        {
+          japanese: '日本の食べ物が好きです。',
+          english: 'I like Japanese food.',
+          romaji: 'Nihon no tabemono ga suki desu.'
+        },
+        {
+          japanese: '友達の家に行きます。',
+          english: 'I go to my friend\'s house.',
+          romaji: 'Tomodachi no ie ni ikimasu.'
         }
       ],
-      usage: 'Use の to indicate possession or connection between nouns.'
+      usage: 'Use の to indicate possession, connection between nouns, or to modify nouns. It creates noun phrases and shows relationships.'
     },
     {
       id: 'particle-to',
       title: 'と (To) Particle',
-      explanation: 'Means "and" or "with". Used to connect nouns or indicate accompaniment.',
+      explanation: 'Means "and" when connecting nouns, or "with" when indicating accompaniment. It connects items of equal importance and is used for listing things together or indicating who you do something with.',
       examples: [
         {
           japanese: '友達と映画を見ます。',
@@ -740,9 +810,19 @@ export const n5Data: JLPTLevel = {
           japanese: 'りんごとバナナを買いました。',
           english: 'I bought apples and bananas.',
           romaji: 'Ringo to banana wo kaimashita.'
+        },
+        {
+          japanese: '家族と一緒に住んでいます。',
+          english: 'I live together with my family.',
+          romaji: 'Kazoku to issho ni sunde imasu.'
+        },
+        {
+          japanese: 'コーヒーとケーキを注文しました。',
+          english: 'I ordered coffee and cake.',
+          romaji: 'Koohii to keeki wo chuumon shimashita.'
         }
       ],
-      usage: 'Use と to mean "and" or "with".'
+      usage: 'Use と to mean "and" when connecting nouns, or "with" when indicating accompaniment. It connects items of equal importance.'
     },
     {
       id: 'particle-hodo',
