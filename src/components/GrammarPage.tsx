@@ -58,12 +58,24 @@ const GrammarPage: React.FC = () => {
               }`}
               onClick={() => setSelectedGrammar(selectedGrammar === grammar.id ? null : grammar.id)}
             >
-              <h3 className="font-semibold text-gray-900 mb-2">
-                {grammar.title}
-              </h3>
-              <p className="text-sm text-gray-600">
-                {grammar.explanation}
-              </p>
+              <div className="flex items-start justify-between">
+                <div className="flex-1">
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    {grammar.title}
+                  </h3>
+                  <p className="text-sm text-gray-600">
+                    {grammar.explanation}
+                  </p>
+                </div>
+                <div className="ml-3 flex items-center">
+                  <span className="text-xs bg-blue-100 text-blue-700 px-2 py-1 rounded-full">
+                    {grammar.examples.length} examples
+                  </span>
+                  <span className="ml-2 text-gray-400">
+                    {selectedGrammar === grammar.id ? '▼' : '▶'}
+                  </span>
+                </div>
+              </div>
             </div>
           ))}
         </div>
@@ -109,9 +121,15 @@ const GrammarPage: React.FC = () => {
           ) : (
             <div className="text-center py-8">
               <div className="text-gray-400 text-4xl mb-4">📚</div>
-              <p className="text-gray-600">
-                Select a grammar point from the list to see detailed explanations and examples.
+              <h3 className="text-lg font-medium text-gray-900 mb-2">
+                Select a Grammar Point
+              </h3>
+              <p className="text-gray-600 mb-4">
+                Click on any grammar point from the list to see detailed explanations, examples, and usage guidelines.
               </p>
+              <div className="text-sm text-gray-500">
+                Each grammar point includes multiple examples with Japanese, Romaji, and English translations.
+              </div>
             </div>
           )}
         </div>
